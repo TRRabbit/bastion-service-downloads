@@ -18,6 +18,12 @@
         "date": "2026-07-13",
         "en": "Major polish release.\n- Reliable startup: readable startup log, smart single-instance lock (a second launch brings the existing window to front), no more ghost processes.\n- English by default; French available in Settings, applied instantly.\n- New Home page (About + support Discord) and a separate My Products tab.\n- Store product pages: full description, feature list, documentation links and release notes.\n- Launcher version always visible; release notes update automatically.\n- Palworld color identity across the whole app; embedded fonts (no network needed for the interface).\n- Embedded payment component (no external CDN): fixes the connection issue on the Buy button.",
         "fr": "Version de finition majeure.\n- Démarrage fiable : journal de démarrage lisible, verrou intelligent (un second lancement ramène la fenêtre existante), plus aucun processus fantôme.\n- Anglais par défaut ; français disponible dans les Réglages, appliqué immédiatement.\n- Nouvel Accueil (À propos + Discord de support) et onglet Mes produits séparé.\n- Fiches produit dans la boutique : description complète, points forts, liens de documentation et notes de version.\n- Version du launcher toujours visible ; notes de version mises à jour automatiquement.\n- Identité couleur Palworld sur tout le logiciel ; polices embarquées (aucun réseau requis pour l'interface).\n- Composant de paiement embarqué (sans CDN externe) : corrige le problème de connexion du bouton Acheter."
+      },
+      {
+        "version": "1.0.3",
+        "date": "2026-07-14",
+        "en": "Safer updates and cleanup.\n- A module update that needs a newer launcher is no longer offered by mistake — you are told to update the launcher first.\n- Product folders that can't be loaded are now shown instead of silently ignored.\n- The hourly update check now runs reliably in the background.\n- Removed an unused internal auto-update path (leaner, cleaner build).",
+        "fr": "Mises à jour plus sûres et nettoyage.\n- Une mise à jour de module qui exige un launcher plus récent n'est plus proposée par erreur — on vous invite d'abord à mettre le launcher à jour.\n- Les dossiers de produit illisibles sont désormais affichés au lieu d'être ignorés en silence.\n- La vérification horaire des mises à jour tourne enfin de façon fiable en arrière-plan.\n- Suppression d'une mécanique interne de mise à jour automatique inutilisée (build plus léger et plus propre)."
       }
     ],
     "palbot": [
@@ -32,6 +38,12 @@
         "date": "2026-07-13",
         "en": "English by default (French available as a setting). Fully translated configuration panel with the Palworld color theme. Paid license properly declared in the module manifest.",
         "fr": "Anglais par défaut (français disponible par réglage). Panneau de configuration entièrement traduit, au thème couleur Palworld. Licence payante correctement déclarée dans la carte d'identité du module."
+      },
+      {
+        "version": "1.0.2",
+        "date": "2026-07-14",
+        "en": "Live players command and cleaner alerts.\n- New /players command: instantly shows who is connected right now (name, level, ping).\n- All bot alerts now go to a single admin channel you choose (with a safe fallback).\n- English by default across battle pass details and alerts; French still available.\n- Account-linking checks now share the same read-only server governor (no extra load on your server).",
+        "fr": "Commande joueurs en direct et alertes plus claires.\n- Nouvelle commande /players : affiche instantanément qui est connecté maintenant (nom, niveau, ping).\n- Toutes les alertes du bot vont désormais dans un seul salon admin que vous choisissez (avec repli sûr).\n- Anglais par défaut pour les détails du battle pass et les alertes ; français toujours disponible.\n- Les vérifications de liaison de compte partagent le même « chef d'orchestre » de lecture seule (aucune charge supplémentaire sur votre serveur)."
       }
     ]
   }
