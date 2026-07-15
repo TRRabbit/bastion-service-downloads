@@ -44,6 +44,12 @@
         "date": "2026-07-14",
         "en": "Live players command and cleaner alerts.\n- New /players command: instantly shows who is connected right now (name, level, ping).\n- All bot alerts now go to a single admin channel you choose (with a safe fallback).\n- English by default across battle pass details and alerts; French still available.\n- Account-linking checks now share the same read-only server governor (no extra load on your server).",
         "fr": "Commande joueurs en direct et alertes plus claires.\n- Nouvelle commande /players : affiche instantanément qui est connecté maintenant (nom, niveau, ping).\n- Toutes les alertes du bot vont désormais dans un seul salon admin que vous choisissez (avec repli sûr).\n- Anglais par défaut pour les détails du battle pass et les alertes ; français toujours disponible.\n- Les vérifications de liaison de compte partagent le même « chef d'orchestre » de lecture seule (aucune charge supplémentaire sur votre serveur)."
+      },
+      {
+        "version": "1.0.3",
+        "date": "2026-07-15",
+        "en": "Richer, module-based configuration.\n- Settings are now organised in sub-tabs, one per module, with an on/off switch at the top of each module (turn the whole leaderboard, tickets, battle pass… on or off).\n- Battle pass: many more ways to earn XP — captures, new species, bosses, dungeons, arena, and (with PalDefender) kills and deaths — each one you can enable and give its own value.\n- Leaderboard: ONE general table now, players and tribes ranked by their overall score; the separate per-metric tops are an option (off by default).",
+        "fr": "Configuration plus riche, par module.\n- Les réglages sont désormais organisés en sous-onglets, un par module, avec un interrupteur activer/désactiver en haut de chaque module (couper ou activer tout le classement, les tickets, le battle pass…).\n- Battle pass : bien plus de façons de gagner de l'XP — captures, nouvelles espèces, boss, donjons, arène, et (avec PalDefender) kills et morts — chacune activable avec sa propre valeur.\n- Classement : UN seul tableau général désormais, joueurs et tribus classés par leur score global ; les tops séparés par métrique sont une option (désactivée par défaut)."
       }
     ]
   }
