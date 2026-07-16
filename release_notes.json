@@ -30,6 +30,12 @@
         "date": "2026-07-16",
         "en": "Updates you can see: a real progress bar (download %, install, restart) and module actions locked while an update runs. New 'Check for updates' button - no more restarting the launcher to see a new version. Honest update messages. Relaunching right after closing no longer shows a false 'already running' warning. Smoother interface.",
         "fr": "Des mises à jour visibles : vraie barre de progression (téléchargement %, installation, redémarrage) et actions du module verrouillées pendant une mise à jour. Nouveau bouton « Vérifier les mises à jour » — plus besoin de redémarrer le launcher pour voir une nouvelle version. Messages de mise à jour honnêtes. Relancer juste après la fermeture n'affiche plus de faux avertissement « déjà lancé ». Interface plus fluide."
+      },
+      {
+        "version": "1.0.5",
+        "date": "2026-07-16",
+        "en": "The launcher now updates itself: it checks for new versions at startup, every hour and via the 'Check for updates' button. One click downloads the verified installer, opens it and closes the launcher - your settings are kept. Cleaner reinstalls: the old runtime is fully replaced.",
+        "fr": "Le launcher se met désormais à jour tout seul : il vérifie les nouvelles versions au démarrage, toutes les heures et via le bouton « Vérifier les mises à jour ». Un clic télécharge l'installeur vérifié, l'ouvre et ferme le launcher — vos réglages sont conservés. Réinstallations plus propres : l'ancien moteur est entièrement remplacé."
       }
     ],
     "palbot": [
