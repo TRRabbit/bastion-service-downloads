@@ -1,0 +1,17 @@
+{
+  "module_id": "bastion-shell",
+  "generation": 1,
+  "channels": {
+    "stable": {
+      "latest": "1.0.5",
+      "versions": {
+        "1.0.5": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/launcher-v1.0.5/Setup_BastionPalworld.exe",
+          "sha256": "c77380f93022c914feff1d8a3b43594852cdd923efd4155d410169dfb092c1e8",
+          "min_bastion_version": "0.1.0"
+        }
+      }
+    }
+  },
+  "signature": "nXrTCfDzz40k9Ob8XIu3exJbobxIvsJcM1Q20XLgB35KD/3MqUcnaWLtc7db6/lLidCmg8MRoupa8W84i/zdDA=="
+}
