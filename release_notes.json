@@ -36,6 +36,12 @@
         "date": "2026-07-16",
         "en": "The launcher now updates itself: it checks for new versions at startup, every hour and via the 'Check for updates' button. One click downloads the verified installer, opens it and closes the launcher - your settings are kept. Cleaner reinstalls: the old runtime is fully replaced.",
         "fr": "Le launcher se met désormais à jour tout seul : il vérifie les nouvelles versions au démarrage, toutes les heures et via le bouton « Vérifier les mises à jour ». Un clic télécharge l'installeur vérifié, l'ouvre et ferme le launcher — vos réglages sont conservés. Réinstallations plus propres : l'ancien moteur est entièrement remplacé."
+      },
+      {
+        "version": "1.0.6",
+        "date": "2026-07-17",
+        "en": "Clearer module screen when the engine is stopped: a Start button and an honest message replace the confusing Stop button and the 'panel not responding' dead end. Your settings are kept — the panel simply needs the engine running. No start/stop actions are offered while an update is in progress.",
+        "fr": "Écran du module plus clair quand le moteur est arrêté : un bouton Démarrer et un message honnête remplacent le bouton Stop trompeur et l'impasse « panneau injoignable ». Vos réglages sont conservés — le panneau a simplement besoin que le moteur tourne. Aucune action démarrer/arrêter n'est proposée pendant une mise à jour."
       }
     ],
     "palbot": [
@@ -80,6 +86,12 @@
         "date": "2026-07-16",
         "en": "Faster, cleaner bot restarts. Account linking is now a simple form: copy your user ID in game, click Link, paste - done (plus an admin unlink command). Recurring messages get a guided builder with readable schedules (hourly/daily/weekly/monthly, local time) and optional guarded server commands. Leaderboard: separate Players and Guilds tabs, each with its own channel. Simpler battle pass setup (pickers and forms). Tickets open in a category, and the ticket panel posts itself. Customisable server status look.",
         "fr": "Redémarrages du bot plus rapides et plus propres. La liaison de compte devient un simple formulaire : copie ton identifiant utilisateur en jeu, clique sur Lier, colle — c'est fait (plus une commande admin de déliaison). Les messages récurrents ont un créateur guidé avec des fréquences lisibles (heure/jour/semaine/mois, heure locale) et des commandes serveur optionnelles sous garde. Classement : onglets Joueurs et Guildes séparés, chacun son salon. Réglage du battle pass simplifié (sélecteurs et formulaires). Les tickets s'ouvrent dans une catégorie et le panneau se publie tout seul. Apparence du statut serveur personnalisable."
+      },
+      {
+        "version": "1.0.7",
+        "date": "2026-07-17",
+        "en": "Battle pass, season edition. Level-up announcements: pick a channel and the bot celebrates every level gained (player, new level, unlocked reward) with a fully customisable message. Season presets: save your rewards, tiers and level curve under a name and switch seasons in one click — the New Season button can restart on any preset. Optional automatic seasons: set a length in days and an order of presets, and the bot resets, applies the next preset and announces it on its own (with a heads-up the day before). Every ID field now says 'ID' in its label.",
+        "fr": "Battle pass, édition saisons. Annonces de passage de niveau : choisissez un salon et le bot fête chaque niveau gagné (joueur, nouveau niveau, récompense débloquée) avec un message entièrement personnalisable. Presets de saison : enregistrez vos récompenses, paliers et courbe de niveaux sous un nom et changez de saison en un clic — le bouton Nouvelle saison peut repartir sur n'importe quel preset. Saisons automatiques (option) : réglez une durée en jours et un ordre de presets, et le bot remet à zéro, applique le preset suivant et l'annonce tout seul (avec un avertissement la veille). Tous les champs d'identifiant disent désormais « ID » dans leur libellé."
       }
     ]
   }
