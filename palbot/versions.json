@@ -1,9 +1,9 @@
 {
   "module_id": "palbot",
-  "generation": 15,
+  "generation": 16,
   "channels": {
     "stable": {
-      "latest": "1.0.11",
+      "latest": "1.0.12",
       "versions": {
         "1.0.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.0/palbot-1.0.0.zip",
@@ -64,9 +64,14 @@
           "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.11/palbot-1.0.11.zip",
           "sha256": "f4adf499f4f5238a587e955cc55d7f30fc6b36844460322f38aa10553893f629",
           "min_bastion_version": "0.1.0"
+        },
+        "1.0.12": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.12/palbot-1.0.12.zip",
+          "sha256": "e3394fbb1d67cbdd1121b685fa04d7f2908aac7a027e57733017745b73623398",
+          "min_bastion_version": "0.1.0"
         }
       }
     }
   },
-  "signature": "MmLVIuLGkYbmOyH1/2TTDiELiNoNXqkIf3q/lp47etLGq4GJ3m8dCjrK6WHqX6Ypb+Z9vUQMSEzU2RYZzBq+Cg=="
+  "signature": "CFcSaw8mhU8+4MznR5uUVf/Ei/N+a3ctmKfhw8aLfwtXJOoPGJsSRdkPKb8bBp+exXtSthmZur1qBEles9imBQ=="
 }
