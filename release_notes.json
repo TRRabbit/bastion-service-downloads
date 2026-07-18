@@ -122,6 +122,12 @@
         "date": "2026-07-17",
         "en": "Battle pass setup, completely redone. The tab is now three clear blocks in order: General (channels, level-up message, automatic seasons), XP values, and Seasons. Creating a season is step by step: one button, name it, add rewards one by one (name, unlock level, optional Discord role — no role means everyone gets it), then save. Each season and each reward unfolds in place to edit it. Advanced settings (VIP role, server commands, level curve) are folded away, and settings you never needed are gone from the screen — sensible defaults apply. Your existing configuration is preserved as is.",
         "fr": "Configuration du battle pass entièrement refaite. L'onglet devient trois blocs clairs, dans l'ordre : Général (salons, message de niveau, saisons automatiques), Valeurs d'XP, et Saisons. Créer une saison se fait pas à pas : un bouton, un nom, puis les récompenses une par une (nom, niveau de déblocage, rôle Discord facultatif — sans rôle, c'est pour tout le monde), et on sauvegarde. Chaque saison et chaque récompense se déroule sur place pour la modifier. Les réglages avancés (rôle VIP, commandes serveur, courbe de niveaux) sont repliés, et les réglages inutiles ont disparu de l'écran — des valeurs par défaut raisonnables s'appliquent. Ta configuration existante est préservée telle quelle."
+      },
+      {
+        "version": "1.0.13",
+        "date": "2026-07-18",
+        "en": "Server commands are now free text. Reward and reminder commands are sent to the server exactly as you type them (any PalDefender command works) — the old allowed-verbs list that could block saving a season is gone. Commands turn on by themselves as soon as the applied season contains one.",
+        "fr": "Les commandes serveur deviennent un champ libre. Les commandes des récompenses et des rappels partent au serveur exactement comme tu les tapes (toute commande PalDefender fonctionne) — l'ancienne liste de « verbes autorisés » qui pouvait bloquer la sauvegarde d'une saison a disparu. Les commandes s'activent toutes seules dès que la saison appliquée en contient une."
       }
     ]
   }
