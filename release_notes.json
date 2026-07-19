@@ -152,6 +152,12 @@
         "date": "2026-07-19",
         "en": "Fixes the 1.0.16 update loop.\n- An update no longer depends on the license. In 1.0.16 a bot without a key reported \"license invalid\", the launcher treated that as a failed update and rolled back to the previous version - so the screen where you paste your key was uninstalled before you could reach it.\n- The module now stays reported as running while it waits for a key: the update completes, the settings screen opens, and the license block at the top is where you paste your key. The Discord bot itself stays disconnected until the key is accepted.\nIf you are on 1.0.16 or 1.0.15, updating to this version is safe.",
         "fr": "Corrige la boucle de mise a jour de la 1.0.16.\n- Une mise a jour ne depend plus de la licence. En 1.0.16, un bot sans cle annoncait « licence invalide », le launcher le prenait pour une mise a jour ratee et revenait a la version precedente - donc l'ecran ou l'on colle sa cle etait desinstalle avant qu'on puisse l'atteindre.\n- Le module reste desormais annonce comme en marche pendant qu'il attend une cle : la mise a jour se termine, l'ecran de configuration s'ouvre, et le bloc licence tout en haut est la pour coller la cle. Le bot Discord, lui, reste deconnecte tant que la cle n'est pas acceptee.\nSi tu es en 1.0.16 ou 1.0.15, la mise a jour vers cette version est sans risque."
+      },
+      {
+        "version": "1.0.18",
+        "date": "2026-07-19",
+        "en": "Panel polish.\n- The Buy a key button is now a proper framed button next to Save and verify - it used to render as plain text and went unnoticed.\n- The status bar showed raw technical values (waiting_license, invalid) instead of readable labels. Both are now translated in English and French.",
+        "fr": "Finitions de l'ecran.\n- Le bouton « Acheter une cle » est desormais un vrai bouton encadre, a cote de « Enregistrer et verifier » - il s'affichait en simple texte et passait inapercu.\n- Le bandeau d'etat affichait des valeurs techniques brutes (waiting_license, invalid) au lieu de libelles lisibles. Les deux sont maintenant traduites en francais et en anglais."
       }
     ]
   }
