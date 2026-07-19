@@ -1,10 +1,105 @@
 {
   "module_id": "palbot",
-  "generation": 1,
+  "generation": 23,
   "channels": {
     "stable": {
       "latest": "1.0.19",
       "versions": {
+        "1.0.0": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.0/palbot-1.0.0.zip",
+          "sha256": "2298d663379f4eee9c5303ecfd6accd2f495a18db3e398befe13d0aeb46e907f",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.1": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.1/palbot-1.0.1.zip",
+          "sha256": "e2a246fef56c09694d058bd80c25b2d23f444b7d8a449b578759a38000ec45f7",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.2": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.2/palbot-1.0.2.zip",
+          "sha256": "7f820e4b060c0052e6ab7d76b561b667cf8740ec12aa2504fb7835f5dd9f8d35",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.3": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.3/palbot-1.0.3.zip",
+          "sha256": "fcf75cc2fcaf060ca0a9c9d15d8287881080b8491f33c2b1e5d2d9464e7a2172",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.4": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.4/palbot-1.0.4.zip",
+          "sha256": "3891535ac7335133b4b03216cb9a814e03fc86dadd19b6030eca70c50ddb5ee7",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.5": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.5/palbot-1.0.5.zip",
+          "sha256": "fb62a883adadeef6f271a466647427e3a59bd8c4450459f444e76373336647ef",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.6": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.6/palbot-1.0.6.zip",
+          "sha256": "eea704e45a8977d9a68ba1103a79c5feac22ecdece14a4e56a3d7e8eeb557e85",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.7": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.7/palbot-1.0.7.zip",
+          "sha256": "8b8e3739f76b82a60c2b32158dcbf6be369f6cac0d40514eadee49fc6d2c596b",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.8": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.8/palbot-1.0.8.zip",
+          "sha256": "953aac119240a6f3ccf6fec286bd8ee7b7e5eb1e72f5f9744e17aad45fcd22c2",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.9": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.9/palbot-1.0.9.zip",
+          "sha256": "3f3592620998a2553282a1d2796f6fec89626e4e2db3216774541a2a5dfb9555",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.10": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.10/palbot-1.0.10.zip",
+          "sha256": "d11e047c7191da28d7ddded4445421496e70000e2a283a88d7c714375f9592ec",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.11": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.11/palbot-1.0.11.zip",
+          "sha256": "f4adf499f4f5238a587e955cc55d7f30fc6b36844460322f38aa10553893f629",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.12": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.12/palbot-1.0.12.zip",
+          "sha256": "e3394fbb1d67cbdd1121b685fa04d7f2908aac7a027e57733017745b73623398",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.13": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.13/palbot-1.0.13.zip",
+          "sha256": "70f1205224e88aae9c44ac0d27373352aa43a21bf4e4d9a85482d40e215b61da",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.14": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.14/palbot-1.0.14.zip",
+          "sha256": "0643556adb2d68f429811760264b0fa2ed4a0dbd92aba5d39fdcdcb91e8de415",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.15": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.15/palbot-1.0.15.zip",
+          "sha256": "f663beb424148950c94699e2015d8667c5ecb0a1c6ba91da34648c11a594794e",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.16": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.16/palbot-1.0.16.zip",
+          "sha256": "fdd690d1ca3b40e39504ae11ab72ca0308c6f3a130c5e98a90bbaef186d560c9",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.17": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.17/palbot-1.0.17.zip",
+          "sha256": "1fab41193f70be4a3dcd70a8eb55a3cc9d26a627aff302f48d015e24abb4d538",
+          "min_bastion_version": "0.1.0"
+        },
+        "1.0.18": {
+          "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.18/palbot-1.0.18.zip",
+          "sha256": "07307f0cf8f5ef6fc127569868831dd76cc56238a9170ce85514c2c74c93d2ee",
+          "min_bastion_version": "0.1.0"
+        },
         "1.0.19": {
           "archive_url": "https://github.com/TRRabbit/bastion-palworld-downloads/releases/download/palbot-v1.0.19/palbot-1.0.19.zip",
           "sha256": "1c2471ac3c6010f209d3f56932cf5b16b93f0633b213b412866f3bd6d01f8f9b",
@@ -13,5 +108,5 @@
       }
     }
   },
-  "signature": "hZT992k9AhJwKDYgkMOinKf91Mce9elfOMWhL4++Y5w06SAb577YJafUZ6WZr+fXr6k7ee1zeHP3vly7DUNtBw=="
+  "signature": "hR6vLn80QRi6aSft4yH7FuPdJfso+PHWkCyArLsgqMreKfCdpVjDuWD2id5Fdb7vQtw42MnMTZJZOPpCGATRCQ=="
 }
