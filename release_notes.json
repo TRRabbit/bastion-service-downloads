@@ -6,6 +6,12 @@
         "date": "2026-07-21",
         "en": "First release of the Bastion Service launcher: one launcher for the whole Bastion range, across games.\n- The store is now organized by game (Palworld, ARK) and by product type (bots, server plugins), so you always know what a product is and which game it serves.\n- Upcoming products are shown greyed out with a clear \"Coming soon\" badge: you can see what is on the way without any false promise.\n- Everything proven in the previous launcher is carried over: signed downloads and updates, product supervision, license handling, English and French interface.",
         "fr": "Première version du launcher Bastion Service : un seul launcher pour toute la gamme Bastion, tous jeux confondus.\n- La boutique est désormais organisée par jeu (Palworld, ARK) puis par type de produit (bots, plugins serveur) : vous savez toujours ce qu'est un produit et à quel jeu il s'adresse.\n- Les produits à venir sont affichés grisés avec une étiquette « Bientôt disponible » claire : vous voyez ce qui arrive, sans fausse promesse.\n- Tout ce qui a fait ses preuves dans le launcher précédent est conservé : téléchargements et mises à jour signés, supervision des produits, gestion des licences, interface en français et en anglais."
+      },
+      {
+        "version": "1.0.1",
+        "date": "2026-07-22",
+        "en": "Guardian ARK and Bastion ORP are now available in the store — checkout happens right inside the app, and a single license key unlocks each product.\n- The launcher's own update now lives in Settings; My Products shows a clear pointer when a new version is available.\n- Small interface fixes in both languages.",
+        "fr": "Guardian ARK et Bastion ORP sont désormais en vente dans la boutique — le paiement se fait directement dans l'application, et une seule clé de licence débloque chaque produit.\n- La mise à jour du launcher lui-même vit maintenant dans les Réglages ; « Mes produits » affiche un renvoi clair quand une nouvelle version existe.\n- Petites corrections d'interface dans les deux langues."
       }
     ],
     "guardian_palworld": [
@@ -152,6 +158,22 @@
         "date": "2026-07-20",
         "en": "In-game rewards fixed for Steam players, plus an id lookup command.\n- Battle pass reward commands now use the full user id (steam_..., ps5_..., xbox_...): the server refused the short form, so Steam players never received their in-game kits. Affected rewards are re-queued and delivered automatically the next time each player is online.\n- The bot now reads the server's reply: a reward is only marked delivered (and announced on Discord) once the server actually accepted the command. A player who is offline keeps their reward on hold until they come back.\n- New /myid command: type an exact in-game name and get the matching user id. Made for console players, who cannot copy their id in game, so they can link their account by themselves.",
         "fr": "Récompenses en jeu réparées pour les joueurs Steam, et une commande pour retrouver son identifiant.\n- Les commandes de récompense du battle pass utilisent désormais l'identifiant utilisateur complet (steam_..., ps5_..., xbox_...) : le serveur refusait la forme courte, les joueurs Steam ne recevaient donc jamais leurs kits en jeu. Les récompenses concernées sont remises en attente et livrées automatiquement à la prochaine connexion de chaque joueur.\n- Le bot lit maintenant la réponse du serveur : une récompense n'est marquée livrée (et annoncée sur Discord) que si le serveur a vraiment accepté la commande. Un joueur hors ligne garde sa récompense en attente jusqu'à son retour.\n- Nouvelle commande /myid : tape un nom exact en jeu et obtiens l'identifiant utilisateur correspondant. Pensée pour les joueurs console, qui ne peuvent pas copier leur identifiant en jeu, afin qu'ils puissent lier leur compte seuls."
+      }
+    ],
+    "guardian_ark": [
+      {
+        "version": "1.0.1",
+        "date": "2026-07-22",
+        "en": "One license key now unlocks the whole bot — every paid feature validates the same Guardian ARK license, like Guardian Palworld.\n- The configuration screen shows a single license key field.\n- Saved secrets (passwords, token) can now be shown or erased right from the panel, with a confirmation step.\n- The panel now follows the app language: a French launcher shows a French panel.",
+        "fr": "Une seule clé de licence débloque désormais tout le bot — chaque fonction payante valide la même licence Guardian ARK, comme Guardian Palworld.\n- L'écran de configuration montre un seul champ de clé de licence.\n- Les valeurs secrètes enregistrées (mots de passe, jeton) peuvent maintenant être affichées ou effacées depuis le panneau, avec une étape de confirmation.\n- Le panneau suit désormais la langue de l'application : un launcher en français affiche un panneau en français."
+      }
+    ],
+    "bastionorp": [
+      {
+        "version": "0.6.1",
+        "date": "2026-07-22",
+        "en": "Bastion ORP is now for sale: the plugin validates real license keys and the panel shows the purchase link.",
+        "fr": "Bastion ORP est désormais en vente : le plugin valide de vraies clés de licence et le panneau affiche le lien d'achat."
       }
     ]
   }
