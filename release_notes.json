@@ -158,6 +158,12 @@
         "date": "2026-07-20",
         "en": "In-game rewards fixed for Steam players, plus an id lookup command.\n- Battle pass reward commands now use the full user id (steam_..., ps5_..., xbox_...): the server refused the short form, so Steam players never received their in-game kits. Affected rewards are re-queued and delivered automatically the next time each player is online.\n- The bot now reads the server's reply: a reward is only marked delivered (and announced on Discord) once the server actually accepted the command. A player who is offline keeps their reward on hold until they come back.\n- New /myid command: type an exact in-game name and get the matching user id. Made for console players, who cannot copy their id in game, so they can link their account by themselves.",
         "fr": "Récompenses en jeu réparées pour les joueurs Steam, et une commande pour retrouver son identifiant.\n- Les commandes de récompense du battle pass utilisent désormais l'identifiant utilisateur complet (steam_..., ps5_..., xbox_...) : le serveur refusait la forme courte, les joueurs Steam ne recevaient donc jamais leurs kits en jeu. Les récompenses concernées sont remises en attente et livrées automatiquement à la prochaine connexion de chaque joueur.\n- Le bot lit maintenant la réponse du serveur : une récompense n'est marquée livrée (et annoncée sur Discord) que si le serveur a vraiment accepté la commande. Un joueur hors ligne garde sa récompense en attente jusqu'à son retour.\n- Nouvelle commande /myid : tape un nom exact en jeu et obtiens l'identifiant utilisateur correspondant. Pensée pour les joueurs console, qui ne peuvent pas copier leur identifiant en jeu, afin qu'ils puissent lier leur compte seuls."
+      },
+      {
+        "version": "1.0.24",
+        "date": "2026-07-22",
+        "en": "The bot is now called Guardian Palworld and is part of the Bastion Service range — one launcher for all games.\n- Nothing changes for you: same settings, same data, same Discord bot. Only the name on screen changes.\n- Your license key keeps working exactly as before.",
+        "fr": "Le bot s'appelle désormais Guardian Palworld et fait partie de la gamme Bastion Service — un seul launcher pour tous les jeux.\n- Rien ne change pour vous : mêmes réglages, mêmes données, même bot Discord. Seul le nom affiché change.\n- Votre clé de licence continue de fonctionner exactement comme avant."
       }
     ],
     "guardian_ark": [
