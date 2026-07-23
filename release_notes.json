@@ -168,6 +168,12 @@
     ],
     "guardian_ark": [
       {
+        "version": "1.0.2",
+        "date": "2026-07-23",
+        "en": "Reliability and security pass.\n- The 72-hour offline allowance is now measured on running time as well as on the clock, so a machine whose clock is changed keeps the same allowance — no more, no less.\n- The configuration panel now refuses any script that is not its own. Player names, tribe names and ticket text coming from the game can no longer act on the panel.\n- Command descriptions that no longer matched any command have been removed from the French list.",
+        "fr": "Passe de fiabilité et de sécurité.\n- Le délai de 72 heures sans connexion au service de licence se compte désormais aussi en temps de fonctionnement, et plus seulement à l'horloge : changer l'heure de la machine ne le rallonge ni ne le raccourcit.\n- Le panneau de configuration refuse maintenant tout script qui n'est pas le sien. Les pseudos, noms de tribus et textes de tickets venus du jeu ne peuvent plus agir sur le panneau.\n- Des descriptions de commandes qui ne correspondaient plus à aucune commande ont été retirées de la liste française."
+      },
+      {
         "version": "1.0.1",
         "date": "2026-07-22",
         "en": "One license key now unlocks the whole bot — every paid feature validates the same Guardian ARK license, like Guardian Palworld.\n- The configuration screen shows a single license key field.\n- Saved secrets (passwords, token) can now be shown or erased right from the panel, with a confirmation step.\n- The panel now follows the app language: a French launcher shows a French panel.",
