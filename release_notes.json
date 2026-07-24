@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.4",
+        "date": "2026-07-24",
+        "en": "The product lifecycle was reworked.\n- Installing a product no longer starts it by itself: install it, configure it, then start it.\n- The configuration screen always opens, even if the bot is stopped or has crashed.\n- New “Install (I have a key)” button in the store: install a product without going through checkout, then paste your key.",
+        "fr": "Le cycle de vie des produits a été revu.\n- Installer un produit ne le lance plus tout seul : vous l'installez, le configurez, puis vous le lancez.\n- L'écran de configuration s'ouvre toujours, même si le bot est arrêté ou en panne.\n- Nouveau bouton « Installer (j'ai une clé) » dans la boutique : installer un produit sans repasser par l'achat, puis coller sa clé."
+      },
+      {
         "version": "1.0.3",
         "date": "2026-07-24",
         "en": "Two fixes to the app itself.\n- The installer now always lets you choose the installation folder, even when a previous version is already installed.\n- The payment window now has a close button, so you can leave the licence page without having to close and reopen the app.",
@@ -28,6 +34,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "1.0.1",
+        "date": "2026-07-24",
+        "en": "You can now start or stop the bot from the configuration screen, with its status shown.\n- The bot no longer starts by itself: configure it first, then start it.\n- A bot you stop stays stopped; a started bot comes back after a machine restart.\n- The configuration screen always opens, even with the bot stopped.",
+        "fr": "Vous pouvez maintenant lancer ou arrêter le bot depuis l'écran de configuration, avec son statut affiché.\n- Le bot ne démarre plus tout seul : vous le configurez d'abord, puis vous le lancez.\n- Un bot que vous arrêtez reste arrêté ; un bot lancé repart au redémarrage de la machine.\n- L'écran de configuration s'ouvre toujours, même bot arrêté."
+      },
+      {
         "version": "1.0.0",
         "date": "2026-07-23",
         "en": "First release of Guardian Palworld: your Palworld server, inside your Discord.\n- Live server status, player sessions, and leaderboards built from the real save files.\n- Account linking, battle pass with rewards, tickets and recurring reminders.\n- Read-only on your server: the bot never writes to your world, and never slows it down.\n- Installed, configured and updated from the Bastion Service launcher; one licence key unlocks the whole bot.",
@@ -35,6 +47,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "1.0.1",
+        "date": "2026-07-24",
+        "en": "You can now start or stop the bot from the configuration screen, with its status shown.\n- The bot no longer starts by itself: configure it first, then start it.\n- A bot you stop stays stopped; a started bot comes back after a machine restart.\n- The configuration screen always opens, even with the bot stopped.",
+        "fr": "Vous pouvez maintenant lancer ou arrêter le bot depuis l'écran de configuration, avec son statut affiché.\n- Le bot ne démarre plus tout seul : vous le configurez d'abord, puis vous le lancez.\n- Un bot que vous arrêtez reste arrêté ; un bot lancé repart au redémarrage de la machine.\n- L'écran de configuration s'ouvre toujours, même bot arrêté."
+      },
       {
         "version": "1.0.0",
         "date": "2026-07-23",
