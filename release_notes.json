@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.6",
+        "date": "2026-07-25",
+        "en": "A product you have installed but not configured yet can now be updated.\n- Until now, updating such a product waited three minutes and then rolled back to the previous version. A product waiting for its Discord token is running perfectly well — it simply is not \"ready\" yet, and the update refused to accept that.\n- A version that genuinely fails to start is still rolled back, exactly as before.",
+        "fr": "Un produit installé mais pas encore configuré peut enfin se mettre à jour.\n- Jusqu'ici, sa mise à jour attendait trois minutes puis revenait à la version précédente. Un produit qui attend son jeton Discord fonctionne très bien — il n'est simplement pas encore « prêt », et la mise à jour refusait de l'admettre.\n- Une version qui ne démarre vraiment pas revient toujours en arrière, exactement comme avant."
+      },
+      {
         "version": "1.0.5",
         "date": "2026-07-25",
         "en": "Cleaner product tiles, and a launcher that speaks one language at a time.\n- Each product's description now follows the language you picked, instead of being written in one language only.\n- Bigger buttons with more room between them, and tiles of equal height so their buttons line up.\n- \"My Products\" no longer appears twice in the side bar.\n- Opening a product's configuration no longer starts its bot: you configure first, then start it yourself.",
