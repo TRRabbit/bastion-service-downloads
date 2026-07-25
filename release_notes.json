@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.5",
+        "date": "2026-07-25",
+        "en": "Cleaner product tiles, and a launcher that speaks one language at a time.\n- Each product's description now follows the language you picked, instead of being written in one language only.\n- Bigger buttons with more room between them, and tiles of equal height so their buttons line up.\n- \"My Products\" no longer appears twice in the side bar.\n- Opening a product's configuration no longer starts its bot: you configure first, then start it yourself.",
+        "fr": "Des vignettes plus propres, et une seule langue à l'écran à la fois.\n- La description de chaque produit suit maintenant la langue que vous avez choisie, au lieu d'être écrite dans une seule langue.\n- Des boutons plus grands, plus espacés, et des vignettes de même hauteur pour que leurs boutons s'alignent.\n- « Mes produits » n'apparaît plus deux fois dans la barre de gauche.\n- Ouvrir la configuration d'un produit ne lance plus son bot : vous configurez d'abord, vous lancez ensuite."
+      },
+      {
         "version": "1.0.4",
         "date": "2026-07-24",
         "en": "The product lifecycle was reworked.\n- Installing a product no longer starts it by itself: install it, configure it, then start it.\n- The configuration screen always opens, even if the bot is stopped or has crashed.\n- New “Install (I have a key)” button in the store: install a product without going through checkout, then paste your key.",
@@ -34,6 +40,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "1.0.2",
+        "date": "2026-07-25",
+        "en": "Small alignment with the rest of the range.\n- The action buttons are in the same order and use the same words as in Guardian ARK.\n- \"Restart the bot\" becomes \"Restart the product\": it restarts everything, not only the bot — and it no longer looks like the \"Start the bot\" button next to it.\n- The version the bot reports is now the one that was actually published.",
+        "fr": "Petit alignement avec le reste de la gamme.\n- Les boutons d'action sont dans le même ordre et portent les mêmes mots que dans Guardian ARK.\n- « Redémarrer le bot » devient « Redémarrer le produit » : il redémarre tout, pas seulement le bot — et il ne se confond plus avec le bouton « Lancer le bot » juste à côté.\n- La version annoncée par le bot est enfin celle qui a été publiée."
+      },
+      {
         "version": "1.0.1",
         "date": "2026-07-24",
         "en": "You can now start or stop the bot from the configuration screen, with its status shown.\n- The bot no longer starts by itself: configure it first, then start it.\n- A bot you stop stays stopped; a started bot comes back after a machine restart.\n- The configuration screen always opens, even with the bot stopped.",
@@ -47,6 +59,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "1.0.2",
+        "date": "2026-07-25",
+        "en": "The configuration screen has been brought up to the standard of Guardian Palworld.\n- Opening the configuration no longer starts the bot, so it no longer opens on an error.\n- You can now declare a server hosted at a provider: a real form, always on screen. Until now the only way was to point at a folder on this machine.\n- Channels and roles are picked from a drop-down list fed by your bot, instead of pasting an 18-digit number.\n- Every number is now a real number field showing its limits, instead of a free text box.\n- The scoring table is on screen at last: choosing \"custom\" used to lead nowhere.\n- Error messages are written in your language and say what to do.\n- One name everywhere: Guardian ARK.",
+        "fr": "L'écran de configuration revient au niveau de celui de Guardian Palworld.\n- Ouvrir la configuration ne lance plus le bot : l'écran ne s'ouvre donc plus sur une erreur.\n- Vous pouvez enfin déclarer un serveur hébergé chez un prestataire : un vrai formulaire, toujours affiché. Jusqu'ici, le seul chemin passait par un dossier sur cette machine.\n- Les salons et les rôles se choisissent dans une liste déroulante alimentée par votre bot, au lieu de coller un nombre à 18 chiffres.\n- Chaque nombre est un vrai champ numérique qui montre ses limites, au lieu d'un champ texte libre.\n- Le barème de points est enfin à l'écran : choisir « personnalisé » ne menait nulle part.\n- Les messages d'erreur sont écrits dans votre langue et disent quoi faire.\n- Un seul nom partout : Guardian ARK."
+      },
       {
         "version": "1.0.1",
         "date": "2026-07-24",
