@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "1.0.7",
+        "date": "2026-07-25",
+        "en": "Your configuration now opens from every path.\n- Clicking a product in the side bar opens its configuration directly. Until now it showed a screen with a single \"Start\" button and nothing to configure — the same went for the \"Manage\" buttons in the store and on a product page.\n- New \"Check the installation\" button: after an update, it confirms that everything is in place — including the program that has to run, which an interrupted copy can leave missing.\n- Each product page now carries a badge, top right: green when up to date, amber when an update is waiting. Click it to update.\n- \"Up to date\" is no longer shown as a warning: it is a green badge next to the button.\n- Two buttons in the title bar: join the Discord, open the website.\n- Tidier titles: one single type scale across every screen, and the side bar headings are readable again.",
+        "fr": "Votre configuration s'ouvre désormais par tous les chemins.\n- Cliquer un produit dans la barre de gauche ouvre directement sa configuration. Jusqu'ici, cela affichait un écran avec le seul bouton « Démarrer » et rien à régler — c'était pareil pour les boutons « Gérer » de la boutique et d'une fiche produit.\n- Nouveau bouton « Vérifier l'installation » : après une mise à jour, il confirme que tout est en place — y compris le programme qui doit tourner, qu'une copie interrompue peut laisser manquant.\n- Chaque fiche produit porte une vignette en haut à droite : verte quand tout est à jour, ambre quand une mise à jour attend. Cliquez dessus pour mettre à jour.\n- « À jour » n'est plus affiché comme un avertissement : c'est une pastille verte à côté du bouton.\n- Deux boutons dans le bandeau : rejoindre le Discord, ouvrir le site.\n- Des titres rangés : une seule échelle de tailles sur tous les écrans, et les titres de la barre de gauche redeviennent lisibles."
+      },
+      {
         "version": "1.0.6",
         "date": "2026-07-25",
         "en": "A product you have installed but not configured yet can now be updated.\n- Until now, updating such a product waited three minutes and then rolled back to the previous version. A product waiting for its Discord token is running perfectly well — it simply is not \"ready\" yet, and the update refused to accept that.\n- A version that genuinely fails to start is still rolled back, exactly as before.",
@@ -46,6 +52,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "1.0.3",
+        "date": "2026-07-25",
+        "en": "Same look as Guardian ARK, and a clearer screen.\n- Every explanation moved into a « ? » bubble next to its setting, instead of sitting under each field.\n- Module names are now identical in both bots, so switching from one to the other holds no surprise.",
+        "fr": "La même présentation que Guardian ARK, et un écran plus clair.\n- Chaque explication est passée dans une bulle « ? » à côté de son réglage, au lieu de s'étaler sous chaque champ.\n- Les noms des modules sont désormais identiques dans les deux bots : passer de l'un à l'autre ne réserve plus de surprise."
+      },
+      {
         "version": "1.0.2",
         "date": "2026-07-25",
         "en": "Small alignment with the rest of the range.\n- The action buttons are in the same order and use the same words as in Guardian ARK.\n- \"Restart the bot\" becomes \"Restart the product\": it restarts everything, not only the bot — and it no longer looks like the \"Start the bot\" button next to it.\n- The version the bot reports is now the one that was actually published.",
@@ -65,6 +77,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "1.0.3",
+        "date": "2026-07-25",
+        "en": "The configuration screens now work like Guardian Palworld's, module by module.\n- Every explanation moved into a « ? » bubble next to its setting: the same information, without the wall of grey text under each field.\n- The General tab follows the order that matters: licence key first, then the bot token, then the admin role. The licence was buried in the middle of the longest tab.\n- The scoring table is now one line per thing counted, with its own on/off switch and its value — exactly like the twin bot. And it shows what your bot really applies: a partly filled table used to display factory values your bot was not counting.\n- Declaring a dedicated server only needs its folder now. The bot reads the rest from your server's own files and reports what it found, so you can check it. Two sub-tabs separate a dedicated server from a hosted one.\n- Modules that post a message can pick a saved look from the Templates studio, in a drop-down.\n- Recurring messages: you pick when they repeat instead of typing a format. Each one can be paused without deleting it.\n- Tickets: the staff role, the category and the open-ticket limit are set once for all your button types.\n- Battle pass reward commands now list the variables you may use, with what each one is worth.\n- Any setting that expects a Discord ID says so in its name, and no menu shows internal keywords any more.\nFIXED: saving a ticket list without touching anything used to erase settings the screen does not show.",
+        "fr": "Les écrans de configuration fonctionnent enfin comme ceux de Guardian Palworld, module par module.\n- Chaque explication est passée dans une bulle « ? » à côté de son réglage : la même information, sans le mur de texte gris sous chaque champ.\n- L'onglet Général suit l'ordre qui compte : la clé de licence d'abord, puis le jeton du bot, puis le rôle admin. La licence était perdue au milieu du plus long onglet.\n- Le barème de points est maintenant une ligne par chose comptée, avec son interrupteur et sa valeur — exactement comme le bot jumeau. Et il montre ce que votre bot applique vraiment : un barème rempli à moitié affichait des valeurs d'usine que votre bot ne comptait pas.\n- Déclarer un serveur dédié ne demande plus que son dossier. Le bot lit le reste dans les fichiers de votre serveur et vous rend compte de ce qu'il a trouvé, pour que vous puissiez vérifier. Deux sous-onglets séparent un serveur dédié d'un serveur hébergé.\n- Les modules qui publient un message peuvent choisir une apparence enregistrée dans le studio de modèles, dans un menu déroulant.\n- Messages récurrents : vous choisissez quand ils se répètent au lieu de taper un format. Chacun peut être mis en pause sans être supprimé.\n- Tickets : le rôle de l'équipe, la catégorie et le nombre de tickets ouverts se règlent une fois pour tous vos types de boutons.\n- Les commandes de récompense du passe de combat listent enfin les variables utilisables, avec ce que vaut chacune.\n- Tout réglage qui attend un identifiant Discord le dit dans son nom, et plus aucun menu n'affiche de mot de code.\nCORRIGÉ : enregistrer une liste de tickets sans rien toucher effaçait des réglages que l'écran ne montre pas."
+      },
       {
         "version": "1.0.2",
         "date": "2026-07-25",
