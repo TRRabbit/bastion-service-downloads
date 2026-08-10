@@ -1,9 +1,9 @@
 {
   "module_id": "bastion-service-shell",
-  "generation": 10,
+  "generation": 11,
   "channels": {
     "stable": {
-      "latest": "1.0.9",
+      "latest": "1.0.10",
       "versions": {
         "1.0.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/bastion-service-v1.0.0/Setup_BastionService.exe",
@@ -54,9 +54,14 @@
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/bastion-service-v1.0.9/Setup_BastionService.exe",
           "sha256": "6b658636abe0e18b59fc675bff3780345f1043ed669b29cc62e872230e70a63b",
           "min_bastion_version": "0.1.0"
+        },
+        "1.0.10": {
+          "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/bastion-service-v1.0.10/Setup_BastionService.exe",
+          "sha256": "d61071fab7bff13c71dd49d038cab4cec4a5572f6e031609251d3d32ff8da3d9",
+          "min_bastion_version": "0.1.0"
         }
       }
     }
   },
-  "signature": "IlfXfIOlJW0/RXfeL9eAMtz4AGRqzkRSItBiJTHrn22JNfxx1llSLQzYImHBHTStdI3edMda/nh0spOuKDftBQ=="
+  "signature": "5CLuUmc85L32bVrv/fxAnW9E5u2NXirwrtq/f4EGEMCxrCZZfpgCka295zPh5lUCXFlOJCWgkXq0tS0SWq02BQ=="
 }
