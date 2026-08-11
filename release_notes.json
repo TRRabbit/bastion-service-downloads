@@ -120,6 +120,12 @@
     ],
     "guardian_ark": [
       {
+        "version": "1.0.9",
+        "date": "2026-08-11",
+        "fr": "Entretien interne : rien ne change à l'écran.\n\nCE QUI A CHANGÉ\n- Le produit transportait encore tous les textes d'un ancien écran de configuration retiré il y a onze jours : plus de trois cents phrases, dans les deux langues, que plus personne n'affichait. Elles sont parties, avec un fichier de démarrage qui pointait lui aussi vers cet écran disparu.\n- Guardian ARK est donc un peu plus léger, et surtout plus simple à faire évoluer : on ne relit plus, à chaque changement, du texte qui ne sert à rien.\n\nCE QUE VOUS VERREZ\nRien de différent. Aucun réglage, aucun écran, aucune commande n'a bougé. Cette mise à jour n'apporte pas de fonction nouvelle : elle enlève du poids mort.",
+        "en": "Internal housekeeping: nothing changes on screen.\n\nWHAT CHANGED\n- The product still carried every text from an old configuration window removed eleven days ago: more than three hundred phrases, in both languages, that nothing displayed any more. They are gone, along with a start-up file that also pointed at that vanished window.\n- Guardian ARK is therefore a little lighter, and above all easier to work on: no more re-reading text that serves no purpose.\n\nWHAT YOU WILL SEE\nNothing different. No setting, no screen and no command has moved. This update adds no feature: it removes dead weight."
+      },
+      {
         "version": "1.0.8",
         "date": "2026-08-10",
         "fr": "Un module qui ne peut pas travailler ne se dit plus « actif ».\n\nCE QUI A CHANGÉ\n- Quand la base de données ne répond pas, le bandeau du haut le disait déjà — mais le classement, le passe de combat et les autres modules qui en dépendent gardaient leur interrupteur vert, comme si tout allait bien. Chacun affiche maintenant un avertissement clair : « Ce module ne tourne pas en ce moment », avec ce qui lui manque.\n- Et l'avertissement porte le bouton qui va avec : il ouvre directement l'onglet où le problème se règle, au lieu de vous laisser chercher.\n- Sept modules sont concernés : classement, passe de combat, tribus du cluster, arsenal de dinos, anti-triche, carte en direct et analytique.",
@@ -175,6 +181,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "1.0.2",
+        "date": "2026-08-11",
+        "fr": "Entretien interne : rien ne change à l'écran.\n\nCE QUI A CHANGÉ\n- Les mots affichés par Bastion ORP (français et anglais) sont désormais rangés au même endroit que ceux des autres produits, au lieu de vivre à l'intérieur du code. Ils peuvent enfin être vérifiés automatiquement : rien d'affiché dans une langue et pas dans l'autre, aucune phrase à trou.\n- Les deux plus gros fichiers du produit ont été découpés en morceaux lisibles. La page affichée est exactement la même, au caractère près.\n\nCE QUE VOUS VERREZ\nRien de différent. Cette mise à jour prépare la suite : elle range, elle n'ajoute pas.",
+        "en": "Internal housekeeping: nothing changes on screen.\n\nWHAT CHANGED\n- The words Bastion ORP displays (French and English) now live in the same place as those of the other products, instead of sitting inside the code. They can finally be checked automatically: nothing shown in one language and missing in the other, no half-filled sentence.\n- The product's two largest files were split into readable pieces. The page shown is exactly the same, down to the character.\n\nWHAT YOU WILL SEE\nNothing different. This update prepares what comes next: it tidies, it does not add."
+      },
       {
         "version": "1.0.1",
         "date": "2026-08-09",
