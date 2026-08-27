@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.0.0",
+        "date": "2026-08-26",
+        "fr": "Premiere sortie officielle. Les quatre produits de la gamme portent\ndesormais le meme numero et sortent ensemble.\n\nCE QUI CHANGE\n- Rien a l'ecran : le launcher fonctionne exactement comme avant.\n- Le numero de version passe a 2.0.0 pour toute la gamme. C'est un repere\n  commun : quand vous verrez 2.0.0 sur un module, vous saurez qu'il vient de\n  la meme livraison que votre launcher.\n\nPOURQUOI CETTE SORTIE\nLes mois precedents ont ete consacres a une relecture complete du code, ligne\npar ligne, sur les trois produits. L'essentiel de ce travail ne se voit pas :\nil rend l'ensemble plus solide face aux situations rares -- un serveur qui\nrepond n'importe quoi, une base de donnees momentanement injoignable, un\npseudo de joueur choisi pour tromper l'affichage. Les corrections sont\ndetaillees dans les notes de chaque module.",
+        "en": "First official release. All four products in the range now share the\nsame version number and ship together.\n\nWHAT CHANGES\n- Nothing on screen: the launcher works exactly as before.\n- The version number moves to 2.0.0 across the range. It is a shared marker:\n  when you see 2.0.0 on a module, you know it comes from the same release as\n  your launcher.\n\nWHY THIS RELEASE\nThe past months went into a full line-by-line review of the code across all\nthree products. Most of that work is invisible: it makes the whole set sturdier\nin rare situations -- a server answering nonsense, a database briefly out of\nreach, a player name picked to break the display. Each module's notes list its\nown fixes."
+      },
+      {
         "version": "1.0.10",
         "date": "2026-08-10",
         "fr": "Quand quelque chose ne répond pas, Bastion vous le dit — au lieu de ne rien dire du tout.\n\nCE QUI A CHANGÉ\n- Vous cliquiez « Vérifier les mises à jour » sans connexion, et rien ne se passait : ni message, ni erreur. La page ne bougeait pas d'une lettre, et le bouton avait l'air cassé. Bastion affiche maintenant « Vérification impossible », au même endroit et avec les mêmes mots que sur les autres écrans.\n- L'accueil annonce désormais quand les notes de version n'ont pas pu être lues, au lieu de laisser croire qu'aucune mise à jour n'est jamais sortie.\n- La page « Mes produits », quand vous n'avez encore rien installé, ne propose plus de vérifier les mises à jour de produits que vous n'avez pas. Elle montre la Boutique, et c'est tout.",
@@ -70,6 +76,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.0.0",
+        "date": "2026-08-26",
+        "fr": "Premiere sortie officielle.\n\nAFFICHAGE : PLUS AUCUN PSEUDO NE PEUT CASSER UN MESSAGE\nComme sur Guardian ARK, un joueur pouvait choisir un pseudo qui deformait\nl'affichage de tout le message Discord autour de lui. C'est ferme : liste des\njoueurs connectes, annonces de niveau, classements.\n\nPANNEAU D'ETAT PLUS SOLIDE\n- Un nom de serveur ou une version tres longue ne peut plus figer le panneau\n  d'etat. Avant, le panneau restait bloque sur son dernier affichage tant que\n  le nom n'etait pas raccourci.\n- Une donnee anormale envoyee par le serveur de jeu n'est plus prise pour une\n  panne de connexion : le bot ne relance plus sa base pour rien, et il le dit\n  clairement dans ses journaux.\n- Un identifiant de monde inattendu est refuse en le nommant, au lieu de\n  bloquer le suivi de partie en silence.\n\nA L'ECRAN : rien ne change. Ce sont des corrections de fond.",
+        "en": "First official release.\n\nDISPLAY: NO PLAYER NAME CAN BREAK A MESSAGE ANY MORE\nAs on Guardian ARK, a player could pick a name that garbled the display of the\nwhole surrounding Discord message. This is now closed: online player list,\nlevel-up announcements, leaderboards.\n\nSTURDIER STATUS PANEL\n- An over-long server name or version can no longer freeze the status panel.\n  Before, the panel stayed stuck on its last content until the name was\n  shortened.\n- An out-of-range value from the game server is no longer mistaken for a\n  connection failure: the bot no longer restarts its database for nothing, and\n  says so plainly in its logs.\n- An unexpected world identifier is refused by name instead of silently\n  stalling world tracking.\n\nON SCREEN: nothing changes. These are under-the-hood fixes."
+      },
+      {
         "version": "1.0.7",
         "date": "2026-08-10",
         "fr": "Un module qui ne peut pas travailler ne se dit plus « actif ».\n\nCE QUI A CHANGÉ\n- Quand la base de données ne répond pas, le bandeau du haut le disait déjà — mais les modules qui rangent leurs données dedans gardaient leur interrupteur vert, comme si tout allait bien. Chacun affiche maintenant un avertissement clair : « Ce module ne tourne pas en ce moment », avec ce qui lui manque, et le bouton qui ouvre l'onglet où le problème se règle.\n- Sept modules sont concernés : classement, passe de combat, tickets, fiche joueur, liaison de comptes, sessions des joueurs et suivi des éliminations.\n- Les deux bots disent désormais exactement la même chose, avec les mêmes mots.",
@@ -119,6 +131,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.0.0",
+        "date": "2026-08-26",
+        "fr": "Premiere sortie officielle, et la plus grosse mise a jour de fiabilite\ndu produit.\n\nAFFICHAGE : PLUS AUCUN PSEUDO NE PEUT CASSER UN MESSAGE\nUn joueur pouvait choisir un pseudo qui deformait l'affichage de TOUT le\nmessage Discord autour de lui -- la liste des joueurs connectes, un classement,\nune alerte. Les noms voisins disparaissaient dans le desordre. C'est ferme\npartout : listes de joueurs, classements, tribus, alertes, fiches de joueur,\nannonces de niveau, resumes de raid, panneaux personnalises.\n\nSURVEILLANCE ANTI-TRICHE PLUS FIABLE\n- Une alerte ne peut plus se perdre en silence. Si son envoi echoue -- une\n  coupure de base, meme d'une seconde -- elle repart au cycle suivant. Avant,\n  elle pouvait etre marquee comme deja signalee sans jamais avoir ete envoyee,\n  et la personne surveillee ne declenchait plus rien tant qu'elle restait\n  connectee.\n- Ajouter quelqu'un a la liste de surveillance avec un nom trop long est\n  desormais refuse a la saisie. Avant, l'ajout semblait reussir mais la\n  surveillance ne se declenchait jamais.\n- L'alerte « dino venu d'un serveur etranger » ne peut plus etre tronquee par\n  le nom du serveur d'origine.\n\nSOLIDITE\n- Une valeur anormale envoyee par le serveur de jeu est ecartee proprement au\n  lieu de faire echouer tout un cycle.\n- Plusieurs ecrans resistent mieux aux donnees inattendues.\n\nA L'ECRAN : rien ne change. Ce sont des corrections de fond.",
+        "en": "First official release, and the product's largest reliability update.\n\nDISPLAY: NO PLAYER NAME CAN BREAK A MESSAGE ANY MORE\nA player could pick a name that garbled the display of the WHOLE Discord\nmessage around it -- the online player list, a leaderboard, an alert.\nNeighbouring names vanished into the mess. This is now closed everywhere:\nplayer lists, leaderboards, tribes, alerts, player cards, level-up\nannouncements, raid summaries and custom panels.\n\nMORE RELIABLE ANTI-CHEAT WATCH\n- An alert can no longer be lost silently. If sending fails -- a database\n  hiccup, even a one-second one -- it goes out again on the next cycle. Before,\n  it could be marked as already reported without ever having been sent, and the\n  watched player triggered nothing more for as long as they stayed online.\n- Adding someone to the watchlist with an over-long name is now refused as you\n  type. Before, the entry appeared to succeed but the watch never fired.\n- The \"tame from a foreign server\" alert can no longer be truncated by the\n  origin server's name.\n\nSTURDINESS\n- An out-of-range value sent by the game server is now discarded cleanly\n  instead of failing a whole cycle.\n- Several screens cope better with unexpected data.\n\nON SCREEN: nothing changes. These are under-the-hood fixes."
+      },
       {
         "version": "1.0.9",
         "date": "2026-08-11",
@@ -181,6 +199,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.0.0",
+        "date": "2026-08-26",
+        "fr": "Premiere sortie officielle. Le module rejoint le numero commun de la\ngamme : 2.0.0.\n\nCE QUI CHANGE\n- Rien dans la protection elle-meme : le plugin serveur est inchange, et la\n  version d'API qu'il exige reste la meme.\n- Le module qui l'installe et le configure a recu les corrections de fond\n  menees sur toute la gamme.\n\nA L'ECRAN : rien ne change.",
+        "en": "First official release. The module joins the range's shared version\nnumber: 2.0.0.\n\nWHAT CHANGES\n- Nothing in the protection itself: the server plugin is unchanged, and the API\n  version it requires stays the same.\n- The module that installs and configures it received the under-the-hood fixes\n  carried out across the range.\n\nON SCREEN: nothing changes."
+      },
       {
         "version": "1.0.2",
         "date": "2026-08-11",
