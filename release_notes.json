@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.2.0",
+        "date": "2026-08-29",
+        "fr": "Bastion, ses bots et ses plugins portent enfin la même apparence.\n\nCE QUI CHANGE\n- Une seule identité visuelle pour tout : la même couleur, les mêmes boutons, la même écriture, du lanceur jusqu'au dernier réglage d'un bot. Avant, chaque produit avait sa propre couleur et l'on passait de l'un à l'autre comme d'un logiciel à un autre.\n- Des écrans plus calmes et plus lisibles : les cartes se distinguent par un trait fin plutôt que par des ombres et des dégradés, et chaque texte a été vérifié pour rester lisible sur le fond sombre.\n- L'écusson Bastion est le même que celui du site.\n\n- La barre de gauche a été redessinée : l'écran ouvert se reconnaît à un trait doré sur son bord, et le numéro de version reste visible en bas, séparé du reste.\n- Le programme n'embarque plus ses propres polices d'écriture : il emploie celles de Windows. Il démarre donc un peu plus vite et pèse un peu moins.",
+        "en": "Bastion, its bots and its plugins finally share the same look.\n\nWHAT CHANGES\n- One visual identity for everything: the same colour, the same buttons, the same type, from the launcher down to a bot's last setting. Before, each product had its own colour and moving between them felt like moving between different programs.\n- Calmer, more readable screens: cards are told apart by a thin line rather than by shadows and gradients, and every text was checked to stay readable on the dark background.\n- The Bastion crest is the same one as on the website.\n\n- The left bar was redrawn: the open screen is marked by a gold line on its edge, and the version number stays visible at the bottom, set apart from the rest.\n- The program no longer ships its own typefaces: it uses the ones Windows provides. It starts a little faster and weighs a little less."
+      },
+      {
         "version": "1.0.10",
         "date": "2026-08-10",
         "fr": "Quand quelque chose ne répond pas, Bastion vous le dit — au lieu de ne rien dire du tout.\n\nCE QUI A CHANGÉ\n- Vous cliquiez « Vérifier les mises à jour » sans connexion, et rien ne se passait : ni message, ni erreur. La page ne bougeait pas d'une lettre, et le bouton avait l'air cassé. Bastion affiche maintenant « Vérification impossible », au même endroit et avec les mêmes mots que sur les autres écrans.\n- L'accueil annonce désormais quand les notes de version n'ont pas pu être lues, au lieu de laisser croire qu'aucune mise à jour n'est jamais sortie.\n- La page « Mes produits », quand vous n'avez encore rien installé, ne propose plus de vérifier les mises à jour de produits que vous n'avez pas. Elle montre la Boutique, et c'est tout.",
@@ -70,6 +76,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.2.0",
+        "date": "2026-08-29",
+        "fr": "Bastion, ses bots et ses plugins portent enfin la même apparence.\n\nCE QUI CHANGE\n- Une seule identité visuelle pour tout : la même couleur, les mêmes boutons, la même écriture, du lanceur jusqu'au dernier réglage d'un bot. Avant, chaque produit avait sa propre couleur et l'on passait de l'un à l'autre comme d'un logiciel à un autre.\n- Des écrans plus calmes et plus lisibles : les cartes se distinguent par un trait fin plutôt que par des ombres et des dégradés, et chaque texte a été vérifié pour rester lisible sur le fond sombre.\n- L'écusson Bastion est le même que celui du site.\n\nCE QUI CHANGE AUSSI, ET QUI SE SENT TOUS LES JOURS\n- « Enregistrer », « Arrêter le bot » et « Redémarrer le produit » sont remontés tout en haut, juste sous les vignettes d'état. Sur un onglet chargé comme le classement, il fallait dérouler toute la page pour les atteindre.\n- Les interrupteurs se posent désormais juste à côté de leur nom. Ils étaient rejetés à l'autre bout de leur colonne, si près du réglage SUIVANT qu'on pouvait les confondre.",
+        "en": "Bastion, its bots and its plugins finally share the same look.\n\nWHAT CHANGES\n- One visual identity for everything: the same colour, the same buttons, the same type, from the launcher down to a bot's last setting. Before, each product had its own colour and moving between them felt like moving between different programs.\n- Calmer, more readable screens: cards are told apart by a thin line rather than by shadows and gradients, and every text was checked to stay readable on the dark background.\n- The Bastion crest is the same one as on the website.\n\nALSO CHANGED, AND YOU WILL FEEL IT EVERY DAY\n- Save, stop the bot and restart the product moved to the very top, right under the status tiles. On a busy tab such as the leaderboard, you had to scroll the whole page to reach them.\n- Toggles now sit right next to their name. They used to be pushed to the far end of their column, so close to the NEXT setting that you could read the wrong one."
+      },
+      {
         "version": "1.0.7",
         "date": "2026-08-10",
         "fr": "Un module qui ne peut pas travailler ne se dit plus « actif ».\n\nCE QUI A CHANGÉ\n- Quand la base de données ne répond pas, le bandeau du haut le disait déjà — mais les modules qui rangent leurs données dedans gardaient leur interrupteur vert, comme si tout allait bien. Chacun affiche maintenant un avertissement clair : « Ce module ne tourne pas en ce moment », avec ce qui lui manque, et le bouton qui ouvre l'onglet où le problème se règle.\n- Sept modules sont concernés : classement, passe de combat, tickets, fiche joueur, liaison de comptes, sessions des joueurs et suivi des éliminations.\n- Les deux bots disent désormais exactement la même chose, avec les mêmes mots.",
@@ -119,6 +131,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.2.0",
+        "date": "2026-08-29",
+        "fr": "Bastion, ses bots et ses plugins portent enfin la même apparence.\n\nCE QUI CHANGE\n- Une seule identité visuelle pour tout : la même couleur, les mêmes boutons, la même écriture, du lanceur jusqu'au dernier réglage d'un bot. Avant, chaque produit avait sa propre couleur et l'on passait de l'un à l'autre comme d'un logiciel à un autre.\n- Des écrans plus calmes et plus lisibles : les cartes se distinguent par un trait fin plutôt que par des ombres et des dégradés, et chaque texte a été vérifié pour rester lisible sur le fond sombre.\n- L'écusson Bastion est le même que celui du site.\n\nCE QUI CHANGE AUSSI, ET QUI SE SENT TOUS LES JOURS\n- Les interrupteurs se posent désormais juste à côté de leur nom. Ils étaient rejetés à l'autre bout de leur colonne, si près du réglage SUIVANT qu'on pouvait les confondre — l'onglet « Anti-triche », qui en aligne quatre de suite, était le pire.\n- Six réglages avaient une explication écrite que l'écran n'affichait pas. Le point d'interrogation est revenu, et avec lui ce qu'ils disent. Le plus important : l'alerte sur les adresses réseau partagées précise enfin qu'une adresse commune n'est PAS une preuve de triche — une famille, une colocation ou un partage de connexion en donnent une aussi — et que le bot se contente de signaler, sans jamais sanctionner ni toucher au classement.\n- Sur les lignes de barème figées par un préréglage de notation, une case à cocher grise se dessinait par-dessus l'interrupteur. C'est corrigé.",
+        "en": "Bastion, its bots and its plugins finally share the same look.\n\nWHAT CHANGES\n- One visual identity for everything: the same colour, the same buttons, the same type, from the launcher down to a bot's last setting. Before, each product had its own colour and moving between them felt like moving between different programs.\n- Calmer, more readable screens: cards are told apart by a thin line rather than by shadows and gradients, and every text was checked to stay readable on the dark background.\n- The Bastion crest is the same one as on the website.\n\nALSO CHANGED, AND YOU WILL FEEL IT EVERY DAY\n- Toggles now sit right next to their name. They used to be pushed to the far end of their column, so close to the NEXT setting that you could read the wrong one. The Anti-cheat tab, which lines up four of them, was the worst.\n- Six settings had a written explanation the screen never showed. The question mark is back, and with it what they say. The most important one: the shared network address alert now states that a shared address is NOT proof of cheating — a family, a flatshare or a shared connection give one too — and that the bot only reports: it never sanctions and never touches the ranking.\n- On scoring rows frozen by a preset, a grey checkbox was drawn on top of the toggle. Fixed."
+      },
       {
         "version": "1.0.9",
         "date": "2026-08-11",
@@ -181,6 +199,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.2.0",
+        "date": "2026-08-29",
+        "fr": "Bastion ORP porte la même apparence que le reste de la gamme.\n\nSes trente-neuf réglages sont rangés en six onglets au lieu d'une seule longue page.",
+        "en": "Bastion ORP now carries the same look as the rest of the range.\n\nIts thirty-nine settings are sorted into six tabs instead of one long page."
+      },
       {
         "version": "2.1.0",
         "date": "2026-08-28",
