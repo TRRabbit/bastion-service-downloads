@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.3.0",
+        "date": "2026-08-30",
+        "fr": "La fenêtre du lanceur et les écrans qu'elle affiche ne font plus qu'un.\n\nCE QUI CHANGE\n- Les vignettes, les encadrés et les blocs d'information du lanceur ont les mêmes coins arrondis que les écrans des bots affichés dans sa fenêtre. Ils étaient légèrement différents, et les deux se voyaient côte à côte.\n- Le fond de l'application reprend exactement la couleur de la gamme. Il était un peu plus sombre, emprunté aux affichages techniques.\n- Les boutons ont tous la même hauteur de texte, quel que soit l'endroit où ils se trouvent.\n\nRien ne change dans ce que fait le lanceur : c'est une mise au propre de son apparence.",
+        "en": "The launcher window and the screens it shows are finally one and the same.\n\nWHAT CHANGES\n- The launcher's tiles, boxes and info blocks now have the same rounded corners as the bot screens shown inside its window. They were slightly different, and you could see both side by side.\n- The application background is exactly the range's colour. It used to be a little darker, borrowed from the technical views.\n- Every button now has the same text height, wherever it sits.\n\nNothing changes in what the launcher does: this is a tidy-up of its looks."
+      },
+      {
         "version": "2.2.0",
         "date": "2026-08-29",
         "fr": "Bastion, ses bots et ses plugins portent enfin la même apparence.\n\nCE QUI CHANGE\n- Une seule identité visuelle pour tout : la même couleur, les mêmes boutons, la même écriture, du lanceur jusqu'au dernier réglage d'un bot. Avant, chaque produit avait sa propre couleur et l'on passait de l'un à l'autre comme d'un logiciel à un autre.\n- Des écrans plus calmes et plus lisibles : les cartes se distinguent par un trait fin plutôt que par des ombres et des dégradés, et chaque texte a été vérifié pour rester lisible sur le fond sombre.\n- L'écusson Bastion est le même que celui du site.\n\n- La barre de gauche a été redessinée : l'écran ouvert se reconnaît à un trait doré sur son bord, et le numéro de version reste visible en bas, séparé du reste.\n- Le programme n'embarque plus ses propres polices d'écriture : il emploie celles de Windows. Il démarre donc un peu plus vite et pèse un peu moins.",
@@ -76,6 +82,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.3.0",
+        "date": "2026-08-30",
+        "fr": "Les écrans de Guardian Palworld et de Guardian ARK sont enfin les mêmes écrans.\n\nCE QUI CHANGE\n- L'onglet « Modèles d'affichage » a été refait sur le modèle de son jumeau : la liste des variables se replie au lieu d'occuper tout l'écran, les boutons Charger / Nouveau / Supprimer sont rassemblés au même endroit, et le formulaire s'étale sur deux colonnes.\n- Le mot « embed » disparaît au profit d'« encart » : c'est le même objet, il porte désormais le même nom dans les deux bots.\n- Les blocs qu'on ouvre et qu'on referme (saisons, encadrés, blocs avancés) sont dessinés comme chez le jumeau — mêmes coins, mêmes marges, même trait de séparation.\n- Le bouton « Acheter une licence » a la hauteur des autres boutons.\n\nAucun réglage ne bouge : ce que vous aviez reste tel quel.",
+        "en": "Guardian Palworld and Guardian ARK screens are finally the same screens.\n\nWHAT CHANGES\n- The \"Display templates\" tab was rebuilt on its twin's pattern: the variables list folds away instead of filling the screen, the Load / New / Delete buttons sit together in one place, and the form spreads over two columns.\n- The word \"embed\" gives way to \"box\": it is the same thing, and it now carries the same name in both bots.\n- The blocks you open and close (seasons, boxes, advanced blocks) are drawn like the twin's — same corners, same margins, same separating line.\n- The \"Buy a license\" button is the same height as every other button.\n\nNo setting moves: everything you had stays as it was."
+      },
+      {
         "version": "2.2.0",
         "date": "2026-08-29",
         "fr": "Bastion, ses bots et ses plugins portent enfin la même apparence.\n\nCE QUI CHANGE\n- Une seule identité visuelle pour tout : la même couleur, les mêmes boutons, la même écriture, du lanceur jusqu'au dernier réglage d'un bot. Avant, chaque produit avait sa propre couleur et l'on passait de l'un à l'autre comme d'un logiciel à un autre.\n- Des écrans plus calmes et plus lisibles : les cartes se distinguent par un trait fin plutôt que par des ombres et des dégradés, et chaque texte a été vérifié pour rester lisible sur le fond sombre.\n- L'écusson Bastion est le même que celui du site.\n\nCE QUI CHANGE AUSSI, ET QUI SE SENT TOUS LES JOURS\n- « Enregistrer », « Arrêter le bot » et « Redémarrer le produit » sont remontés tout en haut, juste sous les vignettes d'état. Sur un onglet chargé comme le classement, il fallait dérouler toute la page pour les atteindre.\n- Les interrupteurs se posent désormais juste à côté de leur nom. Ils étaient rejetés à l'autre bout de leur colonne, si près du réglage SUIVANT qu'on pouvait les confondre.",
@@ -131,6 +143,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.3.0",
+        "date": "2026-08-30",
+        "fr": "Les écrans de Guardian ARK et de Guardian Palworld sont enfin les mêmes écrans.\n\nCE QUI CHANGE\n- L'onglet « Modèles d'affichage » était dessiné de deux façons dans les deux bots. Il est désormais identique : même encart de variables, mêmes boutons au même endroit, même aperçu.\n- Ajouter une ligne à une liste se fait partout de la même façon, et le champ porte enfin son nom au-dessus de lui — avant, ce nom disparaissait dès qu'on écrivait dedans.\n- Le bouton « Ajouter » n'est plus doré : seul « Enregistrer » l'est. Ajouter fait apparaître la ligne à l'écran, c'est l'enregistrement qui la garde — la couleur le dit maintenant.\n- Les blocs qu'on ouvre et qu'on referme (saisons, barèmes, encadrés d'avertissement) sont dessinés de la même manière dans les deux bots.\n\nAucun réglage ne bouge : ce que vous aviez reste tel quel.",
+        "en": "Guardian ARK and Guardian Palworld screens are finally the same screens.\n\nWHAT CHANGES\n- The \"Display templates\" tab was drawn two different ways in the two bots. It is now identical: same variables box, same buttons in the same place, same preview.\n- Adding a line to a list works the same way everywhere, and the field finally carries its name above it — that name used to vanish as soon as you typed.\n- The \"Add\" button is no longer gold: only \"Save\" is. Adding puts the line on screen, saving is what keeps it — the colour now says so.\n- The blocks you open and close (seasons, scoring, warning boxes) are drawn the same way in both bots.\n\nNo setting moves: everything you had stays as it was."
+      },
       {
         "version": "2.2.0",
         "date": "2026-08-29",
@@ -199,6 +217,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.3.0",
+        "date": "2026-08-30",
+        "fr": "Bastion ORP suit la mise au propre de l'apparence de la gamme.\n\nCE QUI CHANGE\n- Les encadrés, les vignettes et les blocs d'information ont exactement le même dessin que dans les deux bots et dans le lanceur.\n- Rien d'autre : les réglages, l'installation sur votre serveur et la protection anti-raid fonctionnent comme avant.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
+        "en": "Bastion ORP follows the range's looks tidy-up.\n\nWHAT CHANGES\n- Boxes, tiles and info blocks are drawn exactly like those in the two bots and in the launcher.\n- Nothing else: settings, installing on your server and raid protection work as before.\n\nThis version ships alongside the other three so that everything carries the same number."
+      },
       {
         "version": "2.2.0",
         "date": "2026-08-29",
