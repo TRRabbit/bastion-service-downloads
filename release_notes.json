@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.5.0",
+        "date": "2026-09-01",
+        "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
+        "en": "The whole range now reads like the website.\n\nWHAT CHANGES\n- The colours, typefaces and shapes of all four programs are now those of\n  the website: a deeper background, a brighter gold, and new typefaces. You\n  move from the site to Bastion, and from its store to your products,\n  without feeling you have changed house.\n- In the Store and in My Products, what a product IS (\"Bots\", \"Server\n  Plugins\") now appears above its name in small capitals, instead of being\n  stuck to its description.\n- The typefaces travel WITH the programs: nothing is downloaded, everything\n  still works without internet.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings, your keys and your installed products do not move. Only the\nappearance changes."
+      },
+      {
         "version": "2.4.1",
         "date": "2026-08-31",
         "fr": "Cette version ne change rien pour ce produit.\n\nElle sort en même temps que Guardian Palworld, qui corrige l'enregistrement\nde la clé de licence, pour que toute la gamme porte le même numéro.",
@@ -94,6 +100,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.5.0",
+        "date": "2026-09-01",
+        "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
+        "en": "The whole range now reads like the website.\n\nWHAT CHANGES\n- The colours, typefaces and shapes of all four programs are now those of\n  the website: a deeper background, a brighter gold, and new typefaces. You\n  move from the site to Bastion, and from its store to your products,\n  without feeling you have changed house.\n- In the Store and in My Products, what a product IS (\"Bots\", \"Server\n  Plugins\") now appears above its name in small capitals, instead of being\n  stuck to its description.\n- The typefaces travel WITH the programs: nothing is downloaded, everything\n  still works without internet.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings, your keys and your installed products do not move. Only the\nappearance changes."
+      },
+      {
         "version": "2.4.1",
         "date": "2026-08-31",
         "fr": "Votre clé de licence s'enregistre maintenant du premier coup.\n\nCE QUI EST CORRIGÉ\n- Si votre bot était à l'arrêt au moment où vous colliez votre clé, celle-ci\n  était bien enregistrée mais n'était jamais vérifiée : l'écran répondait\n  « aucune clé enregistrée » alors que vous veniez d'en mettre une, et rien\n  ne se débloquait. C'est le cas le plus courant, puisqu'on colle sa clé\n  AVANT de lancer son bot pour la première fois.\n- Désormais la clé est vérifiée dès que vous l'enregistrez, que le bot\n  tourne ou non. Le bot que vous avez arrêté reste arrêté : seule la\n  vérification a été séparée du lancement.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nSi vous étiez bloqué, mettez à jour puis recollez votre clé : elle sera\nacceptée. Elle était valide depuis le début.",
@@ -167,6 +179,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.5.0",
+        "date": "2026-09-01",
+        "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
+        "en": "The whole range now reads like the website.\n\nWHAT CHANGES\n- The colours, typefaces and shapes of all four programs are now those of\n  the website: a deeper background, a brighter gold, and new typefaces. You\n  move from the site to Bastion, and from its store to your products,\n  without feeling you have changed house.\n- In the Store and in My Products, what a product IS (\"Bots\", \"Server\n  Plugins\") now appears above its name in small capitals, instead of being\n  stuck to its description.\n- The typefaces travel WITH the programs: nothing is downloaded, everything\n  still works without internet.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings, your keys and your installed products do not move. Only the\nappearance changes."
+      },
       {
         "version": "2.4.1",
         "date": "2026-08-31",
@@ -253,6 +271,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.5.0",
+        "date": "2026-09-01",
+        "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
+        "en": "The whole range now reads like the website.\n\nWHAT CHANGES\n- The colours, typefaces and shapes of all four programs are now those of\n  the website: a deeper background, a brighter gold, and new typefaces. You\n  move from the site to Bastion, and from its store to your products,\n  without feeling you have changed house.\n- In the Store and in My Products, what a product IS (\"Bots\", \"Server\n  Plugins\") now appears above its name in small capitals, instead of being\n  stuck to its description.\n- The typefaces travel WITH the programs: nothing is downloaded, everything\n  still works without internet.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings, your keys and your installed products do not move. Only the\nappearance changes."
+      },
       {
         "version": "2.4.1",
         "date": "2026-08-31",
