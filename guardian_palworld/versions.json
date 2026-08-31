@@ -1,9 +1,9 @@
 {
   "module_id": "guardian_palworld",
-  "generation": 10,
+  "generation": 11,
   "channels": {
     "stable": {
-      "latest": "2.2.0",
+      "latest": "2.3.0",
       "versions": {
         "1.0.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_palworld-v1.0.0/guardian_palworld-1.0.0.zip",
@@ -54,9 +54,14 @@
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_palworld-v2.2.0/guardian_palworld-2.2.0.zip",
           "sha256": "7a978e921a98f4e5bd94bbc634f5c6a9c10271fff90430b06e46578ab536b312",
           "min_bastion_version": "1.0.0"
+        },
+        "2.3.0": {
+          "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_palworld-v2.3.0/guardian_palworld-2.3.0.zip",
+          "sha256": "7c6bf87f0b6bac40d46d1d0531e3f9bea44c2f680136303b2fe24fa28c4daee2",
+          "min_bastion_version": "1.0.0"
         }
       }
     }
   },
-  "signature": "y0CoMU7LDh89ypYcPluUVJcZVrgBtQzDMY35oh4mushm30kDYMWxb20y7UIhal5j8CdznFRlFcTy3KVkbIKQBw=="
+  "signature": "FZ8VPLG/vKkPpVAC2ns6GPxjxtxM9Pmnk+8qExpHRVFYMXmgsD91rmFQlPKfYtfQunxlOOd0qdY64l5S9wnuDg=="
 }
