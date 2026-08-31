@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.4.1",
+        "date": "2026-08-31",
+        "fr": "Cette version ne change rien pour ce produit.\n\nElle sort en même temps que Guardian Palworld, qui corrige l'enregistrement\nde la clé de licence, pour que toute la gamme porte le même numéro.",
+        "en": "This version changes nothing for this product.\n\nIt ships alongside Guardian Palworld, which fixes license key saving, so that\nthe whole range carries the same number."
+      },
+      {
         "version": "2.4.0",
         "date": "2026-08-31",
         "fr": "La mise en page est la même dans toute la gamme.\n\nCE QUI CHANGE\n- Les lignes de réglage et les encadrés suivent désormais une seule règle de mise en page, partagée par les quatre produits. Ce qui changeait d'un logiciel à l'autre venait de cette règle, appliquée à moitié.\n- Rien ne bouge à l'écran pour ce produit : c'est Bastion ORP qui rejoint la présentation que vous connaissez déjà ici.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
@@ -88,6 +94,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.4.1",
+        "date": "2026-08-31",
+        "fr": "Votre clé de licence s'enregistre maintenant du premier coup.\n\nCE QUI EST CORRIGÉ\n- Si votre bot était à l'arrêt au moment où vous colliez votre clé, celle-ci\n  était bien enregistrée mais n'était jamais vérifiée : l'écran répondait\n  « aucune clé enregistrée » alors que vous veniez d'en mettre une, et rien\n  ne se débloquait. C'est le cas le plus courant, puisqu'on colle sa clé\n  AVANT de lancer son bot pour la première fois.\n- Désormais la clé est vérifiée dès que vous l'enregistrez, que le bot\n  tourne ou non. Le bot que vous avez arrêté reste arrêté : seule la\n  vérification a été séparée du lancement.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nSi vous étiez bloqué, mettez à jour puis recollez votre clé : elle sera\nacceptée. Elle était valide depuis le début.",
+        "en": "Your license key now saves on the first try.\n\nWHAT IS FIXED\n- If your bot was stopped when you pasted your key, the key was saved but\n  never checked: the screen answered \"no license key registered\" even though\n  you had just entered one, and nothing unlocked. This is the most common\n  case, since you paste your key BEFORE starting your bot for the first time.\n- The key is now checked as soon as you save it, whether the bot is running\n  or not. A bot you stopped stays stopped: only the check was separated from\n  the start.\n\nNOTHING TO DO ON YOUR SIDE\nIf you were stuck, update and paste your key again: it will be accepted. It\nwas valid all along."
+      },
+      {
         "version": "2.4.0",
         "date": "2026-08-31",
         "fr": "La mise en page est la même dans toute la gamme.\n\nCE QUI CHANGE\n- Les lignes de réglage et les encadrés suivent désormais une seule règle de mise en page, partagée par les quatre produits. Ce qui changeait d'un logiciel à l'autre venait de cette règle, appliquée à moitié.\n- Rien ne bouge à l'écran pour ce produit : c'est Bastion ORP qui rejoint la présentation que vous connaissez déjà ici.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
@@ -155,6 +167,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.4.1",
+        "date": "2026-08-31",
+        "fr": "Cette version ne change rien pour ce produit.\n\nElle sort en même temps que Guardian Palworld, qui corrige l'enregistrement\nde la clé de licence, pour que toute la gamme porte le même numéro.",
+        "en": "This version changes nothing for this product.\n\nIt ships alongside Guardian Palworld, which fixes license key saving, so that\nthe whole range carries the same number."
+      },
       {
         "version": "2.4.0",
         "date": "2026-08-31",
@@ -235,6 +253,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.4.1",
+        "date": "2026-08-31",
+        "fr": "Cette version ne change rien pour ce produit.\n\nElle sort en même temps que Guardian Palworld, qui corrige l'enregistrement\nde la clé de licence, pour que toute la gamme porte le même numéro.",
+        "en": "This version changes nothing for this product.\n\nIt ships alongside Guardian Palworld, which fixes license key saving, so that\nthe whole range carries the same number."
+      },
       {
         "version": "2.4.0",
         "date": "2026-08-31",
