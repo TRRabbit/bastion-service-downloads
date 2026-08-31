@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.4.0",
+        "date": "2026-08-31",
+        "fr": "La mise en page est la même dans toute la gamme.\n\nCE QUI CHANGE\n- Les lignes de réglage et les encadrés suivent désormais une seule règle de mise en page, partagée par les quatre produits. Ce qui changeait d'un logiciel à l'autre venait de cette règle, appliquée à moitié.\n- Rien ne bouge à l'écran pour ce produit : c'est Bastion ORP qui rejoint la présentation que vous connaissez déjà ici.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
+        "en": "Page layout is now the same across the whole range.\n\nWHAT CHANGES\n- Settings rows and boxes now follow a single layout rule, shared by all four products. What differed from one program to the next came from that rule, applied only halfway.\n- Nothing moves on screen for this product: it is Bastion ORP that joins the layout you already know here.\n\nThis version ships alongside the other three so that everything carries the same number."
+      },
+      {
         "version": "2.3.0",
         "date": "2026-08-30",
         "fr": "La fenêtre du lanceur et les écrans qu'elle affiche ne font plus qu'un.\n\nCE QUI CHANGE\n- Les vignettes, les encadrés et les blocs d'information du lanceur ont les mêmes coins arrondis que les écrans des bots affichés dans sa fenêtre. Ils étaient légèrement différents, et les deux se voyaient côte à côte.\n- Le fond de l'application reprend exactement la couleur de la gamme. Il était un peu plus sombre, emprunté aux affichages techniques.\n- Les boutons ont tous la même hauteur de texte, quel que soit l'endroit où ils se trouvent.\n\nRien ne change dans ce que fait le lanceur : c'est une mise au propre de son apparence.",
@@ -82,6 +88,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.4.0",
+        "date": "2026-08-31",
+        "fr": "La mise en page est la même dans toute la gamme.\n\nCE QUI CHANGE\n- Les lignes de réglage et les encadrés suivent désormais une seule règle de mise en page, partagée par les quatre produits. Ce qui changeait d'un logiciel à l'autre venait de cette règle, appliquée à moitié.\n- Rien ne bouge à l'écran pour ce produit : c'est Bastion ORP qui rejoint la présentation que vous connaissez déjà ici.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
+        "en": "Page layout is now the same across the whole range.\n\nWHAT CHANGES\n- Settings rows and boxes now follow a single layout rule, shared by all four products. What differed from one program to the next came from that rule, applied only halfway.\n- Nothing moves on screen for this product: it is Bastion ORP that joins the layout you already know here.\n\nThis version ships alongside the other three so that everything carries the same number."
+      },
+      {
         "version": "2.3.0",
         "date": "2026-08-30",
         "fr": "Les écrans de Guardian Palworld et de Guardian ARK sont enfin les mêmes écrans.\n\nCE QUI CHANGE\n- L'onglet « Modèles d'affichage » a été refait sur le modèle de son jumeau : la liste des variables se replie au lieu d'occuper tout l'écran, les boutons Charger / Nouveau / Supprimer sont rassemblés au même endroit, et le formulaire s'étale sur deux colonnes.\n- Le mot « embed » disparaît au profit d'« encart » : c'est le même objet, il porte désormais le même nom dans les deux bots.\n- Les blocs qu'on ouvre et qu'on referme (saisons, encadrés, blocs avancés) sont dessinés comme chez le jumeau — mêmes coins, mêmes marges, même trait de séparation.\n- Le bouton « Acheter une licence » a la hauteur des autres boutons.\n\nAucun réglage ne bouge : ce que vous aviez reste tel quel.",
@@ -143,6 +155,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.4.0",
+        "date": "2026-08-31",
+        "fr": "La mise en page est la même dans toute la gamme.\n\nCE QUI CHANGE\n- Les lignes de réglage et les encadrés suivent désormais une seule règle de mise en page, partagée par les quatre produits. Ce qui changeait d'un logiciel à l'autre venait de cette règle, appliquée à moitié.\n- Rien ne bouge à l'écran pour ce produit : c'est Bastion ORP qui rejoint la présentation que vous connaissez déjà ici.\n\nCette version sort en même temps que les trois autres pour que tout porte le même numéro.",
+        "en": "Page layout is now the same across the whole range.\n\nWHAT CHANGES\n- Settings rows and boxes now follow a single layout rule, shared by all four products. What differed from one program to the next came from that rule, applied only halfway.\n- Nothing moves on screen for this product: it is Bastion ORP that joins the layout you already know here.\n\nThis version ships alongside the other three so that everything carries the same number."
+      },
       {
         "version": "2.3.0",
         "date": "2026-08-30",
@@ -217,6 +235,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.4.0",
+        "date": "2026-08-31",
+        "fr": "Bastion ORP se règle comme les deux bots Guardian : par onglets, tout en haut.\n\nCE QUI CHANGE\n- Les réglages étaient tout en bas de la page : il fallait faire défiler près de deux écrans avant de savoir que des onglets existaient. Ils sont maintenant juste sous les boutons, visibles dès l'ouverture, comme dans Guardian ARK et Guardian Palworld.\n- Chaque partie a son onglet — licence, dossier du serveur, installation, les six groupes de réglages, la protection en direct et la commande d'administration. Onze onglets, et la page tient désormais en un écran au lieu de trois.\n- Les lignes de réglage ont la même hauteur que dans les deux bots ; elles étaient 40 % plus hautes.\n- Les encadrés ne se touchent plus : l'œil sépare enfin deux groupes de réglages.\n\nAucun réglage ne bouge : ce que vous aviez reste tel quel.",
+        "en": "Bastion ORP is now set up like the two Guardian bots: in tabs, right at the top.\n\nWHAT CHANGES\n- The settings sat at the very bottom of the page: you had to scroll almost two screens before you knew tabs existed. They now sit just under the buttons, visible as soon as the page opens, like in Guardian ARK and Guardian Palworld.\n- Every part has its own tab — license, server folder, installation, the six settings groups, live protection and the admin command. Eleven tabs, and the page now fits in one screen instead of three.\n- Settings rows are the same height as in the two bots; they used to be 40% taller.\n- Boxes no longer touch each other: you can finally tell two groups of settings apart.\n\nNo setting moves: everything you had stays as it was."
+      },
       {
         "version": "2.3.0",
         "date": "2026-08-30",
