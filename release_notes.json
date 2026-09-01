@@ -2,6 +2,12 @@
   "articles": {
     "launcher": [
       {
+        "version": "2.6.0",
+        "date": "2026-09-01",
+        "fr": "Les écrans de Bastion sont refaits, sur le modèle du site.\n\nCE QUI CHANGE\n- La Boutique montre chaque produit en image, avec des filtres par jeu qui\n  agissent tout de suite. Une carte, un bouton : voir le produit.\n- La fiche d'un produit se lit comme sa page de vente : ce qu'il fait à\n  gauche, ce qu'il coûte et les boutons à droite, dans un encadré qui reste\n  à portée quand vous descendez. Ses fonctions sont rangées en tableau.\n- L'accueil affiche l'état de vos produits d'un coup d'œil, à côté de la\n  présentation.\n- Les réglages tiennent dans un seul tableau au lieu de quatre sections\n  séparées.\n- Acheter et coller une clé se font maintenant depuis la fiche du produit,\n  là où vous voyez ce que vous achetez, et non plus depuis la vitrine.\n\nCORRIGÉ AUSSI\nLe fichier d'identité du plugin Bastion ORP annonçait la version 2.4 sur\nvotre serveur alors que le produit était en 2.5.0. Sans conséquence sur son\nfonctionnement, mais le numéro affiché était faux. Les deux concordent de\nnouveau.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas.",
+        "en": "Bastion's screens have been rebuilt, following the website.\n\nWHAT CHANGES\n- The Store shows every product as a picture, with per-game filters that\n  apply straight away. One card, one button: see the product.\n- A product's page now reads like its sales page: what it does on the left,\n  what it costs and the buttons on the right, in a panel that stays within\n  reach as you scroll. Its features are laid out in a table.\n- The home screen shows the state of your products at a glance, next to the\n  introduction.\n- Settings now fit in a single table instead of four separate sections.\n- Buying and pasting a key now happen from the product's page, where you can\n  see what you are buying, rather than from the shop window.\n\nALSO FIXED\nThe Bastion ORP plugin identity file reported version 2.4 on your server\nwhile the product was on 2.5.0. No effect on how it works, but the number\nshown was wrong. The two match again.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings, your keys and your installed products do not move."
+      },
+      {
         "version": "2.5.0",
         "date": "2026-09-01",
         "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
@@ -100,6 +106,12 @@
     ],
     "guardian_palworld": [
       {
+        "version": "2.6.0",
+        "date": "2026-09-01",
+        "fr": "Cette version ne change rien à ce produit.\n\nElle sort en même temps que Bastion, dont les écrans ont été refaits, pour\nque toute la gamme porte le même numéro.",
+        "en": "This version changes nothing in this product.\n\nIt ships alongside Bastion, whose screens have been rebuilt, so that the\nwhole range carries the same number."
+      },
+      {
         "version": "2.5.0",
         "date": "2026-09-01",
         "fr": "Toute la gamme s'écrit maintenant comme le site.\n\nCE QUI CHANGE\n- Les couleurs, les écritures et les formes des quatre logiciels sont\n  désormais celles du site : le fond est plus profond, l'or plus vif, et les\n  textes ont changé d'écriture. Vous passez du site à Bastion, et de sa\n  boutique à vos produits, sans avoir l'impression de changer de maison.\n- Dans la Boutique et dans Mes produits, ce qu'EST un produit (« Bots »,\n  « Plugins serveur ») s'affiche désormais au-dessus de son nom, en petites\n  capitales, au lieu d'être collé à sa description.\n- Les écritures voyagent AVEC les logiciels : rien n'est téléchargé, tout\n  fonctionne sans internet comme avant.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages, vos clés et vos produits installés ne bougent pas. Seule\nl'apparence change.",
@@ -179,6 +191,12 @@
       }
     ],
     "guardian_ark": [
+      {
+        "version": "2.6.0",
+        "date": "2026-09-01",
+        "fr": "Cette version ne change rien à ce produit.\n\nElle sort en même temps que Bastion, dont les écrans ont été refaits, pour\nque toute la gamme porte le même numéro.",
+        "en": "This version changes nothing in this product.\n\nIt ships alongside Bastion, whose screens have been rebuilt, so that the\nwhole range carries the same number."
+      },
       {
         "version": "2.5.0",
         "date": "2026-09-01",
@@ -271,6 +289,12 @@
       }
     ],
     "bastionorp": [
+      {
+        "version": "2.6.0",
+        "date": "2026-09-01",
+        "fr": "Cette version corrige le numéro annoncé par le plugin.\n\nCE QUI EST CORRIGÉ\nLe fichier d'identité du plugin Bastion ORP annonçait la version 2.4 sur\nvotre serveur alors que le produit était en 2.5.0. Sans conséquence sur son\nfonctionnement, mais le numéro affiché était faux. Les deux concordent de\nnouveau.\n\nRIEN À FAIRE DE VOTRE CÔTÉ\nVos réglages et votre clé ne bougent pas.",
+        "en": "This version fixes the number reported by the plugin.\n\nWHAT IS FIXED\nThe Bastion ORP plugin identity file reported version 2.4 on your server\nwhile the product was on 2.5.0. No effect on how it works, but the number\nshown was wrong. The two match again.\n\nNOTHING TO DO ON YOUR SIDE\nYour settings and your key do not move."
+      },
       {
         "version": "2.5.0",
         "date": "2026-09-01",
