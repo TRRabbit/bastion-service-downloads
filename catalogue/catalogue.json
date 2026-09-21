@@ -1,0 +1,245 @@
+{
+  "catalogue_id": "catalogue",
+  "schema_version": 1,
+  "generation": 1,
+  "games": [
+    {
+      "id": "palworld",
+      "label": {
+        "fr": "Palworld",
+        "en": "Palworld"
+      },
+      "banner": "/bastion-assets/games/palworld.svg"
+    },
+    {
+      "id": "ark",
+      "label": {
+        "fr": "ARK Survival Ascended",
+        "en": "ARK Survival Ascended"
+      },
+      "banner": "/bastion-assets/games/ark.svg"
+    },
+    {
+      "id": "wardogs",
+      "label": {
+        "fr": "WARDOGS",
+        "en": "WARDOGS"
+      },
+      "banner": "/bastion-assets/games/wardogs.svg"
+    }
+  ],
+  "product_types": [
+    {
+      "id": "bots",
+      "label": {
+        "fr": "Bots",
+        "en": "Bots"
+      }
+    },
+    {
+      "id": "server_plugins",
+      "label": {
+        "fr": "Plugins serveur",
+        "en": "Server Plugins"
+      }
+    },
+    {
+      "id": "admin_tools",
+      "label": {
+        "fr": "Outils d'administration",
+        "en": "Admin Tools"
+      }
+    },
+    {
+      "id": "mods",
+      "label": {
+        "fr": "Mods",
+        "en": "Mods"
+      }
+    }
+  ],
+  "products": [
+    {
+      "module_id": "bastionorp",
+      "name": "Bastion ORP",
+      "game": "palworld",
+      "product_type": "server_plugins",
+      "status": "available",
+      "free": false,
+      "freemium": false,
+      "doc_url": "https://github.com/TRRabbit/bastion-orp-plugin#readme",
+      "support_url": "",
+      "video_url": "",
+      "screenshots": [],
+      "benefit_id": "d2d3d99c-8582-4fd8-82b0-b657c2c9abb8",
+      "checkout_link": "https://buy.polar.sh/polar_cl_UIGcObifUy7pPRO6fk6BjZrrBYMSzk4vWS8z70d5Old",
+      "textes": {
+        "fr": {
+          "tagline": "Protection anti-raid hors-ligne pour serveurs Palworld",
+          "description": "Stoppez le raid hors-ligne sur votre serveur PVP : quand une guilde est déconnectée, ses bases ne prennent aucun dégât (ou des dégâts réduits — à vous de choisir). Plugin serveur natif, installé en un clic avec tout ce qu'il lui faut. Aucun mod côté joueur, aucun fichier du jeu modifié, et une vue de la protection en direct dans Bastion.",
+          "price": "4,99 € / mois",
+          "features": [
+            "Protection hors ligne : les dégâts sur une base sont bloqués ou réduits tant que la guilde défenseuse est déconnectée.",
+            "Anti-abus : anti-déconnexion en combat, protection des nouveaux joueurs, fenêtres de raid programmées.",
+            "Sanctuaire et PVE : une base intouchable par guilde, ou un serveur entier sans dégâts.",
+            "Vue en direct dans Bastion : guildes, bases protégées, raids en cours, journal.",
+            "Installation en un clic : la base technique PalApi et le plugin sont posés pour vous.",
+            "Côté serveur uniquement : les joueurs n'installent rien, les fichiers du jeu ne sont jamais modifiés."
+          ]
+        },
+        "en": {
+          "tagline": "Offline raid protection for Palworld servers",
+          "description": "Stop offline raiding on your PVP server: while a guild is offline, its bases take no damage (or reduced damage — your choice). Native server plugin, installed in one click with everything it needs. No client mod, no game file modified, and a live protection view right in Bastion.",
+          "price": "€4.99 / month",
+          "features": [
+            "Offline protection: damage to a base is blocked or reduced while the defending guild is offline.",
+            "Anti-abuse: combat-log timer, new-player protection, scheduled raid windows.",
+            "Sanctuary and PVE: one untouchable base per guild, or a whole server with no damage.",
+            "Live view in Bastion: guilds, protected bases, ongoing raids, raid journal.",
+            "One-click install: the PalApi framework and the plugin are deployed for you.",
+            "Server-side only: players install nothing, game files are never modified."
+          ]
+        }
+      }
+    },
+    {
+      "module_id": "guardian_ark",
+      "name": "Guardian ARK",
+      "game": "ark",
+      "product_type": "bots",
+      "status": "available",
+      "free": false,
+      "freemium": false,
+      "doc_url": "https://github.com/TRRabbit/bastion-service-downloads#readme",
+      "support_url": "",
+      "video_url": "/bastion-assets/shop/guardian_ark/{lang}/presentation.mp4",
+      "screenshots": [
+        "/bastion-assets/shop/guardian_ark/{lang}/classement.png",
+        "/bastion-assets/shop/guardian_ark/{lang}/passe-de-combat.png"
+      ],
+      "benefit_id": "8afed4ff-0886-4167-86b0-985ba1dcf4fb",
+      "checkout_link": "https://buy.polar.sh/polar_cl_UwuyOIHa2yJI4Kfa1ChH4ihtBHcvzwt8XefHT4a634i",
+      "textes": {
+        "fr": {
+          "tagline": "Bot Discord pour serveurs ARK Survival Ascended",
+          "description": "Amenez votre serveur ARK Survival Ascended dans votre Discord : état du serveur en direct, sessions des joueurs, journal de tribu, classements, suivi des raids, liaison de comptes, passe de combat, tickets et minuteries — toute la panoplie Guardian, pensée pour ARK Survival Ascended.",
+          "price": "4,99 € / mois",
+          "features": [
+            "Panneau d'état en direct : joueurs connectés, santé du serveur, disponibilité.",
+            "Journal de tribu : les raids et les événements de votre tribu suivis, directement sur Discord.",
+            "Classements depuis les vraies sauvegardes : niveaux, dinos, tribus.",
+            "Liaison de compte et passe de combat : progression suivie et récompenses distribuées automatiquement.",
+            "Tickets et rappels : chaque demande ouvre un salon privé, avec minuteries et messages récurrents.",
+            "Multi-serveurs : suit plusieurs serveurs d'un même réseau (cluster)."
+          ]
+        },
+        "en": {
+          "tagline": "Discord bot for ARK Survival Ascended servers",
+          "description": "Bring your ARK Survival Ascended server to your Discord: live server status, player sessions, tribe log, leaderboards, raid tracking, account linking, battle pass, tickets and timers — the full Guardian toolset, built for ASA.",
+          "price": "€4.99 / month",
+          "features": [
+            "Live status panel: players online, server health, uptime.",
+            "Tribe log: your tribe's raids and events tracked, straight to Discord.",
+            "Leaderboards from real save data: levels, dinos, tribes.",
+            "Account linking and battle pass: progression tracked and rewards handed out automatically.",
+            "Tickets and reminders: every request opens a private channel, with timers and recurring messages.",
+            "Cluster-aware: follows several servers of the same cluster."
+          ]
+        }
+      }
+    },
+    {
+      "module_id": "guardian_palworld",
+      "name": "Guardian Palworld",
+      "game": "palworld",
+      "product_type": "bots",
+      "status": "available",
+      "free": false,
+      "freemium": false,
+      "doc_url": "https://github.com/TRRabbit/bastion-service-downloads#readme",
+      "support_url": "",
+      "video_url": "/bastion-assets/shop/guardian_palworld/{lang}/presentation.mp4",
+      "screenshots": [
+        "/bastion-assets/shop/guardian_palworld/{lang}/classement.png",
+        "/bastion-assets/shop/guardian_palworld/{lang}/passe-de-combat.png"
+      ],
+      "benefit_id": "5769d4c8-de1a-40df-8353-642f23716669",
+      "checkout_link": "https://buy.polar.sh/polar_cl_RTW4LHK49gADe008XlFDszdcAsyWVI939a36I4L3u45",
+      "textes": {
+        "fr": {
+          "tagline": "Bot Discord pour serveurs Palworld",
+          "description": "Amenez votre serveur Palworld dans votre Discord : état du serveur en direct, sessions des joueurs, classements construits depuis les vraies sauvegardes, liaison de comptes, passe de combat, tickets et rappels — le tout en lecture seule sur votre serveur, zéro impact sur le jeu.",
+          "price": "4,99 € / mois",
+          "features": [
+            "Panneau d'état en direct : joueurs connectés, santé du serveur, disponibilité.",
+            "Sessions des joueurs : arrivées, départs et temps de jeu.",
+            "Classements depuis les vraies sauvegardes : niveaux, pals, captures, boss, guildes.",
+            "Liaison de compte et passe de combat : progression suivie et récompenses distribuées automatiquement.",
+            "Tickets et rappels : chaque demande ouvre un salon privé, et vos messages récurrents partent tout seuls.",
+            "Lecture seule, toujours : le bot ne peut jamais modifier votre serveur."
+          ]
+        },
+        "en": {
+          "tagline": "Discord bot for Palworld servers",
+          "description": "Bring your Palworld server to your Discord: live server status, player sessions, leaderboards built from real save data, account linking, battle pass, tickets and reminders — all read-only on your server, with zero impact on gameplay.",
+          "price": "€4.99 / month",
+          "features": [
+            "Live status panel: players online, server health, uptime.",
+            "Player sessions: joins, leaves and play time.",
+            "Leaderboards from real save data: levels, pals, captures, bosses, guilds.",
+            "Account linking and battle pass: progression tracked and rewards handed out automatically.",
+            "Tickets and reminders: every request opens a private channel, and your recurring messages send themselves.",
+            "Read-only by design: the bot can never modify your server."
+          ]
+        }
+      }
+    },
+    {
+      "module_id": "guardian_wardogs",
+      "name": "Guardian WARDOGS",
+      "game": "wardogs",
+      "product_type": "bots",
+      "status": "available",
+      "free": false,
+      "freemium": true,
+      "doc_url": "https://github.com/TRRabbit/bastion-service-downloads#readme",
+      "support_url": "",
+      "video_url": "/bastion-assets/shop/guardian_wardogs/{lang}/presentation.mp4",
+      "screenshots": [
+        "/bastion-assets/shop/guardian_wardogs/{lang}/classement.png",
+        "/bastion-assets/shop/guardian_wardogs/{lang}/liaisons.png"
+      ],
+      "benefit_id": "50ba54a5-7481-4b30-b7e0-05cfa3987f27",
+      "checkout_link": "https://buy.polar.sh/polar_cl_ZAFBxBwXJk4egghnsKvHstLCJC6GeACRNldWR4P21yh",
+      "textes": {
+        "fr": {
+          "tagline": "Bot Discord pour serveurs WARDOGS",
+          "description": "Amenez votre serveur communautaire WARDOGS dans votre Discord. Gratuit : état des serveurs en direct, alertes aux admins, sessions des joueurs, parties, classements, tickets, rappels et liaison des comptes. Premium : la console d'administration, la semi-whitelist, le fil des éliminations, le vote de carte, l'aide à la modération, le site internet et plusieurs serveurs.",
+          "price": "Gratuit · Premium 4,99 € / mois",
+          "features": [
+            "État des serveurs en direct : carte, mode, météo, joueurs, les scores des trois équipes, carte suivante, identifiant pour rejoindre — un message par serveur, toujours à jour.",
+            "Alertes aux admins : serveur tombé, figé, redémarré, jeu mis à jour — une seule fois, puis le retour à la normale.",
+            "Parties et classements : début, fin, vainqueur, récapitulatif, éliminations, morts, K/D, temps de jeu et victoires par joueur.",
+            "Liaison des comptes, tickets et rappels : la panoplie Guardian, avec les mêmes mots que sur ARK et Palworld.",
+            "Console d'administration premium : expulser, bannir, message, annonce, finir ou relancer la partie, carte suivante, météo — avec un journal de modération, le vote de carte des joueurs et plusieurs serveurs.",
+            "Fil des éliminations premium : statistiques par arme, tirs à la tête, distance et séries. Nécessite l'ouverture d'un port et un redémarrage du serveur ; le flux est alors reçu par le bot au lieu du studio, qui peut retirer cette possibilité."
+          ]
+        },
+        "en": {
+          "tagline": "Discord bot for WARDOGS servers",
+          "description": "Bring your WARDOGS community server to your Discord. Free: live server status, admin alerts, player sessions, matches, leaderboards, tickets, reminders and account linking. Premium: the admin console, the semi-whitelist, the kill feed, the map vote, moderation help, the website and several servers.",
+          "price": "Free · Premium €4.99 / month",
+          "features": [
+            "Live server status: map, mode, weather, players, the three team scores, next map, join ID — one message per server, always up to date.",
+            "Admin alerts: server down, frozen, restarted, game updated — once, then the return to normal.",
+            "Matches and leaderboards: start, end, winner, recap, per-player kills, deaths, K/D, playtime and wins.",
+            "Account linking, tickets and reminders: the Guardian toolset, the same words as on ARK and Palworld.",
+            "Premium admin console: kick, ban, message, announce, end or restart the match, next map, weather — with a moderation log, the players' map vote and several servers.",
+            "Premium kill feed: stats per weapon, headshots, distance and streaks. Requires opening a port and restarting the server; the feed is then received by the bot instead of the studio, which may remove this option."
+          ]
+        }
+      }
+    }
+  ],
+  "signature": "299zGTC92rlfUlOd+IZ6HM/xdAv7prp5Gwc2EQkf8Bh9TUHw1Wk6MVRCidCAVp0t2yAPbfuHB55Sfo5fwr3lBQ=="
+}
