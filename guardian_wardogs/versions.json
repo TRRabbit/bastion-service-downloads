@@ -1,17 +1,25 @@
 {
   "module_id": "guardian_wardogs",
-  "generation": 1,
+  "generation": 2,
   "channels": {
     "stable": {
-      "latest": "2.9.0",
+      "latest": "1.0.0",
       "versions": {
         "2.9.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_wardogs-v2.9.0/guardian_wardogs-2.9.0.zip",
           "sha256": "869b44050a7ac3d8ef6d8118be9ab31a12a93c8692d18dda5f3993dc9e254fea",
           "min_bastion_version": "2.9.0"
+        },
+        "1.0.0": {
+          "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_wardogs-v1.0.0/guardian_wardogs-1.0.0.zip",
+          "sha256": "c974d95d11cb10bd121ead1312a1af6eb8c1b58815f842ec2168023de7b389b8",
+          "min_bastion_version": "1.0.0",
+          "requiert_du_lanceur": [
+            "sauvegarde_du_fichier_de_donnees"
+          ]
         }
       }
     }
   },
-  "signature": "HknOgEHD116PFvgvfHIDcSgmpSeaL76y9RZ/nRScdzKirGBkGsZdxGz4kscKxMqDXOP+fBNjZCQiKMsluBxkCg=="
+  "signature": "jmXlAhKo3awS2ynY0A4eAYwNx6EnAhjLuIkSI9309wOpoo9TlSsfPRKF44PWAnx8/JEDiTb43t5PeFEZGKBJBA=="
 }
