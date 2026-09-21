@@ -1,13 +1,13 @@
 {
   "module_id": "guardian_ark",
-  "generation": 19,
+  "generation": 20,
   "channels": {
     "stable": {
-      "latest": "2.9.0",
+      "latest": "1.0.0",
       "versions": {
         "1.0.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/guardian_ark-v1.0.0/guardian_ark-1.0.0.zip",
-          "sha256": "9dfb77eb2f06f0f9669804002131a1a0c8c4b01cf664e9de726cd9df9e29ff09",
+          "sha256": "a968eb15b02eaadfbf764f360d61e91aad52e14f631a358ca8f03e58e4c8ea65",
           "min_bastion_version": "1.0.0"
         },
         "1.0.1": {
@@ -103,5 +103,5 @@
       }
     }
   },
-  "signature": "V2D6F6GnOAZaaYw4CXLwf8r+W92XYU0ckSueSYSfrAFNr3xL60UO/AUWCY2VrxlOnFtAXyVye3JZmVVV1x2yCg=="
+  "signature": "f5kEsdUDXjqxW1z5hg291BLxUTr29c8/aVGV67SHNpC88qFWMDEglSRT/AtuHfziaNLHkyGeirlU4IcMUkGfCQ=="
 }
