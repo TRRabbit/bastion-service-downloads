@@ -1,13 +1,13 @@
 {
   "module_id": "bastionorp",
-  "generation": 13,
+  "generation": 14,
   "channels": {
     "stable": {
-      "latest": "2.9.0",
+      "latest": "1.0.0",
       "versions": {
         "1.0.0": {
           "archive_url": "https://github.com/TRRabbit/bastion-service-downloads/releases/download/bastionorp-v1.0.0/bastionorp-1.0.0.zip",
-          "sha256": "f5eff223a385b8c4d461c3d084c7adbc5821e32580628a444188b2b80fdce805",
+          "sha256": "5e4a47e6752009fa4496105e4be17c8b4ae426c7308c8d5aedc2598e3d6e3a18",
           "min_bastion_version": "1.0.0"
         },
         "1.0.1": {
@@ -73,5 +73,5 @@
       }
     }
   },
-  "signature": "c7vCte2+TU/lD33MM1qFEHN0QDOuYf/Y8WyBIoZwq60e5SXVmtsEvMGa0BFelYH4puadxiA0k6se1TcgwEHuCg=="
+  "signature": "4CPOxxPhi2LOB1MqZOcKEda804LPGuBaiU4YjuKUdXpENY3b85mBSD+hPwGAYNgezkYsNNaW4Fc/1NyxJX2jCA=="
 }
