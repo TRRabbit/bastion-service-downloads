@@ -1,7 +1,7 @@
 {
   "catalogue_id": "catalogue",
   "schema_version": 1,
-  "generation": 1,
+  "generation": 2,
   "games": [
     {
       "id": "palworld",
@@ -168,7 +168,7 @@
       "textes": {
         "fr": {
           "tagline": "Bot Discord pour serveurs Palworld",
-          "description": "Amenez votre serveur Palworld dans votre Discord : état du serveur en direct, sessions des joueurs, classements construits depuis les vraies sauvegardes, liaison de comptes, passe de combat, tickets et rappels — le tout en lecture seule sur votre serveur, zéro impact sur le jeu.",
+          "description": "Amenez votre serveur Palworld dans votre Discord : état du serveur en direct, sessions des joueurs, classements construits depuis les vraies sauvegardes, liaison de comptes, passe de combat, tickets et rappels — par défaut, le bot ne touche pas à votre serveur.",
           "price": "4,99 € / mois",
           "features": [
             "Panneau d'état en direct : joueurs connectés, santé du serveur, disponibilité.",
@@ -176,12 +176,12 @@
             "Classements depuis les vraies sauvegardes : niveaux, pals, captures, boss, guildes.",
             "Liaison de compte et passe de combat : progression suivie et récompenses distribuées automatiquement.",
             "Tickets et rappels : chaque demande ouvre un salon privé, et vos messages récurrents partent tout seuls.",
-            "Lecture seule, toujours : le bot ne peut jamais modifier votre serveur."
+            "Rien ne touche votre serveur par défaut : seuls les récompenses et rappels que vous activez y envoient des commandes."
           ]
         },
         "en": {
           "tagline": "Discord bot for Palworld servers",
-          "description": "Bring your Palworld server to your Discord: live server status, player sessions, leaderboards built from real save data, account linking, battle pass, tickets and reminders — all read-only on your server, with zero impact on gameplay.",
+          "description": "Bring your Palworld server to your Discord: live server status, player sessions, leaderboards built from real save data, account linking, battle pass, tickets and reminders — by default, the bot does not touch your server.",
           "price": "€4.99 / month",
           "features": [
             "Live status panel: players online, server health, uptime.",
@@ -189,7 +189,7 @@
             "Leaderboards from real save data: levels, pals, captures, bosses, guilds.",
             "Account linking and battle pass: progression tracked and rewards handed out automatically.",
             "Tickets and reminders: every request opens a private channel, and your recurring messages send themselves.",
-            "Read-only by design: the bot can never modify your server."
+            "Safe by default: only the rewards and reminders you turn on send commands to your server."
           ]
         }
       }
@@ -241,5 +241,5 @@
       }
     }
   ],
-  "signature": "299zGTC92rlfUlOd+IZ6HM/xdAv7prp5Gwc2EQkf8Bh9TUHw1Wk6MVRCidCAVp0t2yAPbfuHB55Sfo5fwr3lBQ=="
+  "signature": "v534QCXteTGvSaRIyT1hGJs1AOf8DVy7d/DQjEkfn3oKYI+37b62rnA5Hgd0nkHTeiru8oeLfu634v0h9WIzCQ=="
 }
